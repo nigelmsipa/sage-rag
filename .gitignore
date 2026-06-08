@@ -1,0 +1,15 @@
+# Generated embeddings (large, regenerable from the corpus via ingest.py)
+knowledge-*.json
+
+# Eval outputs / run artifacts
+eval-*.txt
+eval-results.json
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# The corpus itself is kept private (proprietary domain knowledge).
+# Point ingest.py at your own corpus directory to rebuild the knowledge base.
+corpora/
