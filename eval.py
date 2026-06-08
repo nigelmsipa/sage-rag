@@ -62,11 +62,16 @@ def ask_rag(question):
 
 def judge(question, gold, candidate):
     prompt = (
-        "You grade a candidate answer against the official GOLD answer for a "
-        "produce-department knowledge question. Focus on whether the candidate "
-        "states the same key facts and numbers as the gold and does not "
-        "contradict it. Extra correct detail is fine; wording differences are "
-        "fine.\n\n"
+        "Grade a CANDIDATE answer against the official GOLD answer. Judge ONLY "
+        "factual agreement:\n"
+        "- PASS: the candidate includes the gold's key facts/numbers and "
+        "contradicts none. Extra correct detail, more thoroughness, and "
+        "different wording are FINE and must NOT lower the grade.\n"
+        "- PARTIAL: gets the main idea but misses a key fact the question asks "
+        "for, or is vague where the gold gives a specific value.\n"
+        "- FAIL: contradicts the gold (e.g. a different number/temperature) or "
+        "misses the core answer.\n"
+        "Never penalize the candidate for adding extra correct information.\n\n"
         f"QUESTION: {question}\nGOLD: {gold}\nCANDIDATE: {candidate}\n\n"
         "Reply with exactly one word — PASS, PARTIAL, or FAIL — then ' | ' and "
         "a one-line reason."
