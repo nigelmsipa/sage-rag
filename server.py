@@ -35,9 +35,17 @@ import numpy as np
 
 HERE        = os.path.expanduser("~/sage-rag")
 OLLAMA      = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
-GEN_MODEL   = "lfm2.5:8b"          # LiquidAI LFM2.5-8B — 116 tok/s on RX 6600, 5.3GB VRAM
+# Defaults are tuned for the GPU box (RX 6600). Override via env on slow hardware
+# such as a phone — see start-sage.sh on the Xperia 10 III, which sets:
+#   SAGE_GEN_MODEL=LiquidAI/lfm2.5-1.2b-instruct:latest  SAGE_TOP_K=3
+#   SAGE_NUM_CTX=2048  SAGE_NUM_PREDICT=320
+# Why: phone CPU prefill is ~19 tok/s, so 10 chunks (~2265 tok) = ~113s prefill and
+# every query timed out before the first byte. 3 chunks (~1009 tok) answers in ~58s.
+GEN_MODEL   = os.environ.get("SAGE_GEN_MODEL", "lfm2.5:8b")  # 116 tok/s on RX 6600, 5.3GB VRAM
 LISTEN      = ("0.0.0.0", 11500)
-TOP_K       = 10        # more chunks -> better coverage; OpenRouter's GPU prefill keeps it fast
+TOP_K       = int(os.environ.get("SAGE_TOP_K", "10"))   # more chunks -> better coverage (GPU prefill keeps it fast)
+NUM_CTX     = int(os.environ.get("SAGE_NUM_CTX", "8192"))    # must hold system prompt + TOP_K chunks
+NUM_PREDICT = int(os.environ.get("SAGE_NUM_PREDICT", "512"))  # cap answer length
 QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
 EMBED_KEEP_ALIVE = "30m"   # keep the embedder resident so retrieval stays warm
 
@@ -187,7 +195,8 @@ def open_openrouter(convo):
 
 def open_ollama_chat(convo):
     body = json.dumps({"model": GEN_MODEL, "messages": convo,
-                       "stream": True}).encode()
+                       "stream": True,
+                       "options": {"num_ctx": NUM_CTX, "num_predict": NUM_PREDICT}}).encode()
     req = urllib.request.Request(OLLAMA + "/api/chat", data=body,
                                  headers={"Content-Type": "application/json"})
     return urllib.request.urlopen(req, timeout=600)
