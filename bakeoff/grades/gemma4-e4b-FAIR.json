@@ -1,0 +1,13 @@
+{
+ "model": "gemma4-e4b-full",
+ "model_id": "gemma4:e4b",
+ "params": "~8B",
+ "n": 65,
+ "PASS": 62,
+ "PARTIAL": 2,
+ "FAIL": 1,
+ "fails": "blossom-end-rot (universal retrieval gap)",
+ "note": "FAIR re-run num_predict=2048, 0 truncations; 95% = highest score; but slowest model (44.9s/Q)",
+ "avg_total_s": 44.89,
+ "budget": "num_predict=2048"
+}

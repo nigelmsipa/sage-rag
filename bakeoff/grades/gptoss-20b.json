@@ -1,0 +1,13 @@
+{
+ "model": "gptoss-20b",
+ "model_id": "gpt-oss:20b",
+ "params": "20.9B MoE (~3.6B active)",
+ "n": 65,
+ "PASS": 61,
+ "PARTIAL": 3,
+ "FAIL": 1,
+ "fails": "blossom-end-rot (universal retrieval gap)",
+ "note": "ties qwen-7B at 94%; 20B buys zero accuracy over 7B; MoE so faster-per-token than dense but CPU-bound here",
+ "avg_total_s": 30.85,
+ "decode_tps": 13.6
+}

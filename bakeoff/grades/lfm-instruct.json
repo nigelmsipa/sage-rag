@@ -1,0 +1,22 @@
+{
+ "model": "lfm-instruct",
+ "model_id": "LiquidAI/lfm2.5-1.2b-instruct",
+ "n": 65,
+ "PASS": 58,
+ "PARTIAL": 6,
+ "FAIL": 1,
+ "fails": {
+  "6": "cucumbers: answered sensitivity, not production (missed low-producer 0.1-1.0)"
+ },
+ "partials": {
+  "2": "olives: missed 5C chilling threshold",
+  "13": "blossom-end-rot: muddled location/hedged",
+  "27": "Botrytis advanced: wrong color (brown vs grayish-white mycelium)",
+  "28": "FTL: too generic, did not enumerate",
+  "37": "tare: missed POS manual override",
+  "59": "flooring: missed SBR material/water-pooling/oil-degradation"
+ },
+ "avg_total_s": 4.76,
+ "prefill_tps": 303.8,
+ "decode_tps": 63.3
+}

@@ -1,0 +1,298 @@
+{
+ "summary": {
+  "model": "lfm2.5-thinking",
+  "n": 26,
+  "wall_s": 185.6,
+  "avg_total_s": 0.0,
+  "avg_prefill_tps": 0.0,
+  "avg_decode_tps": 0.0
+ },
+ "results": [
+  {
+   "section": "qa-01-storage-reference",
+   "q": "What is chilling injury (CI) and when does it occur?",
+   "gold": "Chilling injury is biological damage caused by exposing tropical and subtropical produce to non-freezing temperatures below their specific threshold, typically between 5\u00b0C and 12.5\u00b0C. It causes membrane phase transition, cellular ion leakage, and enzymatic browning.",
+   "answer": "Chilling injury (CI) is **biological damage caused by exposing tropical and subtropical produce to non\u2011freezing temperatures below their specific threshold, typically between 5\u202f\u00b0C and 12.5\u202f\u00b0C**. It occurs when these commodities are stored at such low, non\u2011freezing temperatures, leading to membrane phase transition, cellular ion leakage, and enzymatic browning.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-01-storage-reference",
+   "q": "What is the chilling threshold for grapefruit, and how cold-sensitive is it?",
+   "gold": "Grapefruit is extremely cold-sensitive with a CI threshold of 10\u00b0C (50\u00b0F). Store at 50\u201359\u00b0F / 10\u201315\u00b0C. Sub-threshold storage causes scald, extensive pitting, and watery breakdown of the albedo (white pith).",
+   "answer": "**Chilling threshold:** 10\u202f\u00b0C (50\u202f\u00b0F)\u3010qa-01-storage-reference\u3011\u3010research-01-storage-reference\u3011  \n**Cold\u2011sensitivity:** Grapefruit is extremely cold\u2011sensitive; any storage below the threshold causes scald, extensive pitting, and watery breakdown of the albedo\u3010qa-01-storage-reference\u3011\u3010research-01-storage-reference\u3011",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-02-ethylene-management",
+   "q": "What percentage of premature produce spoilage in retail and home settings is caused by unmanaged ethylene cross-exposure rather than temperature abuse?",
+   "gold": "Over 60% of premature produce spoilage stems from unmanaged ethylene cross-exposure, not simple temperature abuse.",
+   "answer": "Over\u202f60% of premature produce spoilage in retail and home settings is attributed to unmanaged ethylene cross\u2011exposure rather than temperature abuse\u3010Source: research\u201102\u2011ethylene\u2011management\u3011\u3010Source: qa\u201102\u2011ethylene\u2011management\u3011.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-02-ethylene-management",
+   "q": "What temperature and humidity does USDA Group 5 require, and which items belong to it?",
+   "gold": "Group 5 requires 10\u00b0C (50\u00b0F) and 85\u201390% relative humidity. It includes cucumbers, eggplant, okra, and peppers \u2014 all chilling-sensitive items.",
+   "answer": "USDA **Group\u202f5** requires:\n\n- **Temperature:** 10\u202f\u00b0C (50\u202f\u00b0F)  \n- **Relative Humidity:** 85\u202f\u2013\u202f90\u202f%\n\nThe group includes the following chilling\u2011sensitive produce: cucumbers, eggplant, okra, and peppers.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-03-ripeness-identification",
+   "q": "What is the difference between climacteric and non-climacteric fruits?",
+   "gold": "Climacteric fruits continue to ripen after harvest via a spike in ethylene production and respiration; non-climacteric fruits do not get sweeter or improve in flavor once separated from the plant and must be harvested at peak maturity.",
+   "answer": "",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-03-ripeness-identification",
+   "q": "What does a sharp acetone or sour note at a pineapple's base indicate?",
+   "gold": "The sugars have begun to ferment.",
+   "answer": "A sharp acetone or sour note at a pineapple\u2019s base indicates that the sugars have begun to ferment.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-04-wet-rack-science",
+   "q": "What is turgor pressure and why does it matter for produce?",
+   "gold": "Turgor pressure is the outward force of fluid against plant cell walls that keeps non-woody plants structurally firm and crisp. When a plant loses water through transpiration after harvest, turgor pressure drops and the tissue wilts. Restoring it is the entire goal of crisping.",
+   "answer": "**Turgor pressure** is the hydrostatic force exerted by water inside a plant cell\u2019s central vacuole against the cell wall. In non\u2011woody plants it keeps the tissue rigid and crisp.  \n- *\u201cTurgor pressure is the outward force of fluid against plant cell walls that keeps non\u2011woody plants structurally firm and crisp.\u201d* (qa\u201104\u2011wet\u2011rack\u2011science)  \n\nWhen produce is harvested it continues to transpire without a root system, so the vacuoles empty, the cells lose turgor, and the plant becomes limp or wilted.  \n- *\u201cWhen a plant loses water through transpiration after harvest, turgor pressure drops and the tissue wilts.\u201d* (qa\u201104\u2011wet\u2011rack\u2011science)\n\nRestoring turgor is the goal of the crisping process; re\u2011inserting water by osmosis and capillary action inflates the vacuoles back to their optimal internal pressure (typically 0.6\u20130.8\u202fMPa, up to ~1.5\u202fMPa in highly turgid specimens).  \n- *\u201cFully hydrated tissue reaches 0.6 to 0.8\u202fMPa, and can surge as high as 1.5\u202fMPa in highly turgid specimens.\u201d* (qa\u201104\u2011wet\u2011rack\u2011science)  \n\nBecause turgor pressure maintains crispness and structural integrity, any loss\u2014whether by wilting, dehydration, or improper handling\u2014reduces shelf life and consumer appeal.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-04-wet-rack-science",
+   "q": "Why must sink water be completely drained and refilled after soaking aromatic items like cilantro or leeks?",
+   "gold": "These items leach potent essential oils and aromatic compounds into the water that will contaminate milder vegetables like butter lettuce with off-flavors if the sink water is reused.",
+   "answer": "Strong\u2011flavored or fragrant produce such as cilantro, parsley and leeks release potent aromatic compounds and essential oils into the crisping sink. Those oils stay in the water and can taint milder vegetables (e.g., butter lettuce) that are washed afterward.  Therefore the sink water must be **completely drained, sanitized, and refilled** after processing these aromatic items to avoid catastrophic flavor cross\u2011contamination.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-05-diseases-and-spoilage",
+   "q": "What is the Q\u2081\u2080 temperature coefficient, and why does it matter for berry storage?",
+   "gold": "It is the biological principle that a 10\u00b0C (18\u00b0F) increase in ambient temperature accelerates respiration and enzymatic degradation by 200% to 400%. Any cold chain breakdown immediately triggers explosive fungal growth in berries.",
+   "answer": "**Q\u2081\u2080 temperature coefficient**  \n> \u201cA biological principle that a 10\u202f\u00b0C (18\u202f\u00b0F) increase in ambient temperature accelerates respiration and enzymatic degradation by **200\u202f% to 400\u202f%**.\u201d (research\u201105-diseases\u2011and\u2011spoilage)\n\nIt is sometimes described as the factor by which the rate of biological deterioration **doubles or triples per 10\u202f\u00b0C rise** \u2013 the Q\u2081\u2080 value typically falls between **2.0 and 3.0** for most horticultural crops. (qa\u201106\u2011receiving\u2011protocols)  \n\n**Why it matters for berries**  \nBerries have exceptionally high respiration rates and fragile skins. A temperature increase speeds those processes, so:\n\n* \u201cany cold\u2011chain breakdown immediately precipitates **explosive fungal growth and tissue collapse** in berries.\u201d (research\u201105-diseases\u2011and\u2011spoilage)  \n\n* At 20\u202f\u00b0C, strawberries\u2019 respiration rate jumps from 6\u201310\u202fml\u202fCO\u2082\u202f/kg\u202fhr at 0\u202f\u00b0C to 50\u2013100\u202fml\u202fCO\u2082\u202f/kg\u202fhr \u2013 roughly **10 times** the rate in optimal refrigeration. (qa\u201106\u2011receiving\u2011protocols)  \n\nThus, maintaining the low temperatures (0\u202f\u00b0C / 32\u202f\u00b0F) used for berry storage is critical to slow respiration, delay spoilage, and keep the berries fresh longer.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-05-diseases-and-spoilage",
+   "q": "After a soft rot outbreak on the wet rack, what exactly must be cleaned?",
+   "gold": "The affected section of the rack, including the grates and the underlying drainage pans, must be scrubbed, rinsed, and sanitized with an approved chemical agent before restocking.",
+   "answer": "The outbreak area on the wet rack must be completely cleaned: **the affected section of the rack\u2014including the grates and the underlying drainage pans\u2014has to be scrubbed, rinsed, and sanitized with an approved chemical agent before restocking.**",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-06-receiving-protocols",
+   "q": "What is the Q10 rule and why does it matter for produce receiving?",
+   "gold": "The Q10 rule states that for every 10\u00b0C (18\u00b0F) rise in temperature, the rate of biological deterioration doubles or triples. For most horticultural commodities, the Q10 value ranges between 2.0 and 3.0.",
+   "answer": "**Q10 rule (in brief)**  \nThe Q10 rule states that *for every 10\u202f\u00b0C (18\u202f\u00b0F) rise in temperature, the rate of biological deterioration doubles or triples*.  \n- For most horticultural commodities the Q10 value is **2.0\u20133.0**\u3010qa\u201106\u2011receiving\u2011protocols\u3011, but highly perishable crops can reach **4.0\u20135.0**\u3010research\u201101\u2011storage\u2011reference\u3011.\n\n**Why it matters at receiving**  \n- Higher temperatures accelerate respiration and senescence, sharply shortening shelf life.  \n- An example for strawberries: at 0\u202f\u00b0C (32\u202f\u00b0F) they emit 6\u201110\u202fml CO\u2082\u202f/kg\u00b7hr, while at 20\u202f\u00b0C (68\u202f\u00b0F) the rate jumps to 50\u2011100\u202fml CO\u2082\u202f/kg\u00b7hr\u2014~10\u00d7 higher\u2014showing the Q10 effect in real terms\u3010qa\u201106\u2011receiving\u2011protocols\u3011.  \n- In practice, \u201cevery hour a pallet sits on a warm dock is equivalent to losing 10 hours of refrigerated shelf life\u201d\u3010qa\u201106\u2011receiving\u2011protocols\u3011. Thus strict temperature checks and rapid cooling are essential during receiving to preserve product quality and comply with regulations.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-06-receiving-protocols",
+   "q": "What causes \"rusting\" on cut ends of lettuce?",
+   "gold": "Oxidation of phenolic compounds catalyzed by the enzyme polyphenol oxidase upon exposure to air and mechanical wounding.",
+   "answer": "Rusting on cut ends of lettuce is caused by the oxidation of phenolic compounds. This oxidation is catalyzed by the enzyme **polyphenol oxidase** when the lettuce is exposed to air and mechanically wounded\u3010Source: research-06-receiving-protocols\u3011.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-07-food-safety-fsma",
+   "q": "At what minimum temperature can Listeria monocytogenes actively grow?",
+   "gold": "Listeria can actively grow at temperatures as cold as 34\u00b0F (1\u00b0C), making it dangerous even inside properly functioning refrigerators.",
+   "answer": "Listeria\u202fmonocytogenes can actively grow at temperatures as cold as **34\u202f\u00b0F (1\u202f\u00b0C)**\u3010qa-07\u2011food\u2011safety\u2011fsma\u3011\u3010research\u201107\u2011food\u2011safety\u2011fsma\u3011.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-07-food-safety-fsma",
+   "q": "Why is storing wiping cloths in cloudy sanitizer solution a health code violation?",
+   "gold": "Turbid or degraded sanitizer is no longer effective, so cloths stored in it become highly efficient mechanical spreaders of pathogens across the facility.",
+   "answer": "Storing wiping cloths in a cloudy (turbid) sanitizer solution violates health codes because the degraded sanitizer is no longer effective. When the solution is cloudy, it indicates that the sanitizer has reacted with organic matter or degraded over time, rendering it unable to kill pathogens. Cloths stored in this compromised solution become a highly efficient mechanical spreader of pathogens throughout the facility, as they can transfer still\u2011viable microbes to surfaces they touch.  \n\n> \u201cStoring wiping cloths in turbid (cloudy) or degraded sanitizer solutions violates health codes and acts as a highly efficient mechanical spreader of pathogens across the facility.\u201d\u3010qa-07-food-safety-fsma\u3011",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-08-plu-codes-shrink",
+   "q": "What organization manages PLU codes globally, and in what year was the system adopted?",
+   "gold": "The International Federation for Produce Standards (IFPS) manages PLU codes globally. The system was adopted in 1990.",
+   "answer": "The International Federation for Produce Standards (IFPS) manages PLU codes globally, and the system was adopted in **1990**\u30101\u3011\u30103\u3011.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-08-plu-codes-shrink",
+   "q": "How is shrink rate calculated as a percentage?",
+   "gold": "Shrink Rate (%) = (Retail Value of Lost Inventory \u00f7 Total Retail Sales) \u00d7 100.",
+   "answer": "Shrink rate is calculated as a percentage by dividing the retail value of lost inventory by the total retail sales and then multiplying by 100\u202f%:\n\n**Shrink Rate\u202f(%)\u202f=\u202f(Retail Value of Lost Inventory \u00f7 Total Retail Sales)\u202f\u00d7\u202f100.**",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-09-customer-service",
+   "q": "What is the difference between a climacteric and a non-climacteric fruit?",
+   "gold": "Climacteric fruits continue to ripen after harvest, converting starches to sugars via ethylene gas production. Non-climacteric fruits stop developing sugars the moment they are severed from the parent plant and will only soften or decay after harvest.",
+   "answer": "Climacteric fruits **continue to ripen after harvest**: they soften, sweeten, and develop aromas by a surge in respiration and *autocatalytic* ethylene production, converting stored starches into sugars.  \n\nNon\u2011climacteric fruits **stop developing sugars once they\u2019re severed**: after harvest they may only soften or decay, but they will never become sweeter or darker because their starch\u2011to\u2011sugar conversion has ceased.  \n\nThus, climacteric fruits can ripen at home, while non\u2011climacteric fruits must be harvested already at peak ripeness.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-09-customer-service",
+   "q": "Which fruits are highly recommended for diabetics based on GI and fiber content?",
+   "gold": "Cherries, apples, strawberries, and peaches \u2014 all low GI with good fiber-to-sugar ratios.",
+   "answer": "The fruits that are identified in the source as *Highly Recommended* for people managing diabetes (due to their low GI and good fiber\u2011to\u2011sugar ratio) are:\n\n- **Cherries** \u2013 GI\u202f20 (low)\u30102.1 Guidance for Diabetics: Glycemic Index vs. Glycemic Load \u2013 Cherries\u3011  \n- **Apples** \u2013 GI\u202f36 (low)\u30102.1 Guidance for Diabetics: Glycemic Index vs. Glycemic Load \u2013 Apples\u3011  \n- **Strawberries** \u2013 GI\u202f41 (low)\u30102.1 Guidance for Diabetics: Glycemic Index vs. Glycemic Load \u2013 Strawberries\u3011  \n- **Peaches** \u2013 GI\u202f42 (low)\u30102.1 Guidance for Diabetics: Glycemic Index vs. Glycemic Load \u2013 Peaches\u3011  \n\nThese four fruits are listed in the QA section as the sweet\u2011fruits that are \u201chighly recommended for diabetics based on GI and fiber content.\u201d",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-10-seasonal-sourcing",
+   "q": "What percentage of U.S. leafy greens does Yuma, Arizona produce during winter months?",
+   "gold": "Yuma produces approximately 90 percent of the leafy greens consumed in the United States and Canada from November through April.",
+   "answer": "Yuma produces **approximately 90\u202fpercent** of the leafy greens consumed in the United States and Canada from November through April.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-10-seasonal-sourcing",
+   "q": "What humidity level is required in avocado ripening rooms, and why?",
+   "gold": "90\u201395% humidity, to prevent the rough skin from shriveling.",
+   "answer": "**Humidity requirement:** 90\u202f\u2013\u202f95\u202f% relative humidity.  \n**Why it matters:** This high humidity keeps the fruit\u2019s rough skin from shriveling during ripening.  \n\n*Source:* \u201c90\u201395\u202f% humidity, to prevent the rough skin from shriveling.\u201d (qa\u201110\u2011seasonal\u2011sourcing & Avocado Ripening Architecture)",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-11-merchandising-psychology",
+   "q": "Why is the produce department placed at the store entrance?",
+   "gold": "To trigger the \"halo effect\" \u2014 if produce looks fresh and abundant, shoppers subconsciously apply that positive perception to every other department in the store, raising their willingness to spend across all categories.",
+   "answer": "The produce section is intentionally placed at the front of the store because it \u201ctriggers the halo effect.\u201d When shoppers first see fresh, abundant produce, they subconsciously apply that positive perception to every other department, which increases their willingness to spend across the entire store.  \n\n*(Source: qa\u201111\u2011merchandising\u2011psychology)*",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-11-merchandising-psychology",
+   "q": "What dangerous pathogen can grow in poorly maintained misting system plumbing?",
+   "gold": "Legionella pneumophila, which causes Legionnaires' disease, a severe pneumonia \u2014 it multiplies in stagnant water reservoirs and can be aerosolized into the store environment.",
+   "answer": "Legionella\u202fpneumophila can thrive in poorly maintained misting\u2011system plumbing. It is especially encouraged to grow in stagnant water between\u00a068\u202f\u00b0F and\u00a0113\u202f\u00b0F (20\u202f\u00b0C to 45\u202f\u00b0C) \u2013 temperatures easily reached on a retail floor or near misting\u2011unit housings. Its growth in misting systems is a major cause of severe human disease\u00a0\u2014\u00a0Legionnaires\u2019\u00a0disease\u00a0\u3010Source: research-04-wet-rack-science / The Airborne Pathogenesis of Legionella\u3011\u3010Source: research-11-merchandising-psychology / The Microbial Paradox and Legionella Risks\u3011",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-12-ergonomics-safety",
+   "q": "What is the total recordable injury and illness rate for grocery store workers, and how does it compare to retail trade overall?",
+   "gold": "The grocery store industry has a rate of 8.4 cases per 100 full-time workers, significantly higher than the retail trade average of 5.9 and the total private industry average of 6.1.",
+   "answer": "The grocery store industry reports a total recordable injury and illness rate of **8.4 cases per 100 full\u2011time workers**. This is **significantly higher** than the retail trade average of **5.9 cases per 100 full\u2011time workers**\u3010Source: qa-12-ergonomics-safety\u3011.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-12-ergonomics-safety",
+   "q": "How far can hand skin temperature drop during cold-environment work?",
+   "gold": "From a normal 32.5\u00b0C down to 7.3\u00b0C.",
+   "answer": "Hand skin temperature can fall from a normal 32.5\u202f\u00b0C to as low as 7.3\u202f\u00b0C during cold\u2011environment work.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-13-wall-prep-and-crisping",
+   "q": "What is the correct water temperature range for crisping produce?",
+   "gold": "95\u00b0F to 100\u00b0F. Warm water opens the stomata and relaxes vascular tissue, allowing rapid water uptake. Cold water causes the guard cells and xylem to constrict, blocking hydration entirely.",
+   "answer": "The correct water temperature range for crisping produce is **95\u00b0F to 100\u00b0F**.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  },
+  {
+   "section": "qa-13-wall-prep-and-crisping",
+   "q": "Why shouldn't leeks be soaked in a static sink?",
+   "gold": "Submerging a whole leek in standing water often drives suspended dirt further down into the core rather than flushing it out.",
+   "answer": "Leeks should not be put into a static sink because the water tends to push the dirt deeper into the plant.  \n> \u201cSubmerging a whole leek in standing water often drives suspended dirt further down into the core rather than flushing it out.\u201d\u3010research-13-wall-prep-and-crisping / Leeks: Fan\u2011Cleaning the Soil\u3011\u3010qa-13-wall-prep-and-crisping\u3011  \n\nTo clean leeks effectively you need the fan\u2011cleaning technique: hold the leek at the root, fan the dark green upper leaves apart under a high\u2011pressure stream of water to flush soil out from between the layers without waterlogging the dense interior.",
+   "prefill_tok": null,
+   "decode_tok": null,
+   "prefill_tps": null,
+   "decode_tps": null,
+   "total_s": 0.0
+  }
+ ]
+}

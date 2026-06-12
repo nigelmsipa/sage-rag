@@ -1,0 +1,12 @@
+{
+ "model": "gemma2b",
+ "model_id": "gemma:2b",
+ "n": 65,
+ "PASS": 46,
+ "PARTIAL": 6,
+ "FAIL": 13,
+ "fail_modes": "8 over-cautious refusals on answerable Qs; contradictions (cucumbers, hydrocooling=vacuum, Rhizopus color, signage)",
+ "avg_total_s": 14.54,
+ "prefill_tps": 96.6,
+ "decode_tps": 29.1
+}

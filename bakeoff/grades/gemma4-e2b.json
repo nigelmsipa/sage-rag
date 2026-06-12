@@ -1,0 +1,13 @@
+{
+ "model": "gemma4-e2b",
+ "model_id": "gemma4:e2b",
+ "params": "5.1B",
+ "n": 65,
+ "PASS": 59,
+ "PARTIAL": 4,
+ "FAIL": 2,
+ "fails": "blossom-end-rot (retrieval gap), Botrytis (truncation-blank)",
+ "note": "mild num_predict=512 truncation handicap (verbose w/ citations); 91% likely slightly understated",
+ "avg_total_s": 20.86,
+ "decode_tps": 27.6
+}

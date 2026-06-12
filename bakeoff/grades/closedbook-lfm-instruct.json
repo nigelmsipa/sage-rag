@@ -1,0 +1,20 @@
+{
+ "model": "lfm-instruct",
+ "arm": "closed-book",
+ "n": 65,
+ "PASS_approx": 6,
+ "pass_rate": "~9%",
+ "rag_pass": "89%",
+ "rag_value_points": "~80",
+ "hallucination_gallery": [
+  "PAL=Protected Alkaline Phosphatase",
+  "CTE=Common Table Expression(SQL)",
+  "TCS=Thermal Conductive",
+  "ProduceMaxx=Vitamin C",
+  "markdown triggers=software terms",
+  "russet spotting=animal condition",
+  "crisping=160-180F",
+  "injury rate inverted"
+ ],
+ "key_finding": "blossom-end-rot: closed-book RIGHT, all RAG models WRONG -> RAG suppressed parametric knowledge on retrieval-gap question"
+}

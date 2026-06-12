@@ -1,0 +1,49 @@
+
+======================================================================
+Q1: What is the correct water temperature for crisping wilted produce?
+======================================================================
+GOLD:   95-100°F (35-38°C) warm water. Above 105°F cooks/damages the leaves; cold water constricts the tissue and fails to hydrate.
+
+CORPUS: The correct water temperature for crisping wilted produce is **95 °F to 100 °F** (35 °C to 38 °C).【Source: qa-13-wall-prep-and-crisping】【Source: research-13-wall-prep-and-crisping / The Physics of Water Temperature: The 95-100°F Window】
+
+WEB:    For crisping wilted produce, soak the cut leaves in **cold water** for a few minutes – the colder the water, the better it helps restore crispness【2】.
+        (top result: https://minnesotagrown.com/pick-of-the-month/storage-tips-for-stocking-up-on-minnesotas-fall-produce/)
+
+======================================================================
+Q2: What is the chilling threshold for cranberries?
+======================================================================
+GOLD:   Below 2°C (35°F) causes chilling injury.
+
+CORPUS: The chilling threshold for cranberries is **2 °C (35 °F)**【research-01-storage-reference / 9. Berries / Cranberries】【qa-01-storage-reference】.
+
+WEB:    Cranberry vines need **at least 1,500 hours (≈ 62 days) of temperatures below 45 °F** during the winter to break dormancy and transition to the next growth stage【1】【2】.
+        (top result: https://growplant.org/blog/cranberry-life-cycle/)
+
+======================================================================
+Q3: At what temperature should sweet potatoes be stored?
+======================================================================
+GOLD:   55-59°F (13-15°C). Refrigeration causes chilling injury (hard core, mahogany browning).
+
+CORPUS: Sweet potatoes should be stored at **55–59 °F (13–15 °C)**. This temperature range keeps them from chilling injury and maintains quality.
+
+WEB:    Sweet potatoes should be stored at roughly **12.5 – 15 °C (55 – 59 °F)**, ideally 13–15 °C, in high‑humidity conditions. Temperatures below about 50 °F can damage the roots. [Sweet potato – Wikipedia] [Sweet Potato | Postharvest Research and Extension Center]
+        (top result: https://en.wikipedia.org/wiki/Sweet_potato)
+
+======================================================================
+Q4: Should I store apples next to leafy greens?
+======================================================================
+GOLD:   No — apples emit ethylene and leafy greens are ethylene-sensitive, so they yellow/wilt prematurely.
+
+CORPUS: No. Apples produce large amounts of ethylene, and leafy greens are very sensitive to that gas. Storing apples next to greens causes the greens to yellow, spot, and wilt rapidly.  
+
+**Why not?**  
+- Apples are a “high ethylene producer” that should not share a crisper drawer with greens【qa‑09-customer-service】【Source: research‑03‑ripeness‑identification / 1. Apples】.  
+- The “Three‑Foot Minimum Dis
+
+WEB:    No. Apples release ethylene, a natural plant hormone that speeds up ripening and can cause leafy greens to wilt or spoil faster. Store apples in a separate crisper drawer or area from greens to keep the greens fresh.  
+
+Sources:  
+- “Should I Refrigerate Apples? An A-to-Z Guide to Storing Fruits” (crisper drawer tip)【1】  
+- “Simple Storage Tips for Salad Greens and Herbs” (ethylene effect)【2】  
+- 
+        (top result: https://www.newedgetimes.com/should-i-refrigerate-apples-an-a-to-z-guide-to-storing-fruits-and-vegetables/)

@@ -42,7 +42,7 @@ OLLAMA      = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
 # Why: phone CPU prefill is ~19 tok/s, so 10 chunks (~2265 tok) = ~113s prefill and
 # every query timed out before the first byte. 3 chunks (~1009 tok) answers in ~58s.
 GEN_MODEL   = os.environ.get("SAGE_GEN_MODEL", "lfm2.5:8b")  # 116 tok/s on RX 6600, 5.3GB VRAM
-LISTEN      = ("0.0.0.0", 11500)
+LISTEN      = ("0.0.0.0", int(os.environ.get("SAGE_PORT", "11500")))
 TOP_K       = int(os.environ.get("SAGE_TOP_K", "10"))   # more chunks -> better coverage (GPU prefill keeps it fast)
 NUM_CTX     = int(os.environ.get("SAGE_NUM_CTX", "8192"))    # must hold system prompt + TOP_K chunks
 NUM_PREDICT = int(os.environ.get("SAGE_NUM_PREDICT", "512"))  # cap answer length
@@ -63,7 +63,10 @@ def load_openrouter_key():
         return None
 
 
-OPENROUTER_KEY = load_openrouter_key()
+# SAGE_FORCE_LOCAL=1 disables OpenRouter so generation runs on the local Ollama
+# GEN_MODEL — required for the model bakeoff, where each candidate must actually
+# be the local model, not silently routed to OpenRouter's gpt-oss-20b.
+OPENROUTER_KEY = None if os.environ.get("SAGE_FORCE_LOCAL") else load_openrouter_key()
 
 
 # ---- Load every knowledge-*.json into memory -------------------------------

@@ -1,0 +1,13 @@
+{
+ "model": "llama3.2-3b",
+ "model_id": "llama3.2:latest",
+ "n": 65,
+ "PASS": 59,
+ "PARTIAL": 4,
+ "FAIL": 2,
+ "fails": "blossom-end-rot (refused), Rhizopus late-stage (gray velvety vs white mycelium)",
+ "note": "got cucumbers + hydrocooling right (Liquid/gemma missed); +2% over instruct but within noise, 2.5x slower",
+ "avg_total_s": 12.08,
+ "prefill_tps": 128.3,
+ "decode_tps": 22.0
+}

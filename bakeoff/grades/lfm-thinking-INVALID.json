@@ -1,0 +1,7 @@
+{
+ "model": "lfm-thinking",
+ "status": "INVALID-rerun-pending",
+ "reason": "thinking model: num_predict=512 consumed by reasoning before final answer; ~20/65 blank/truncated. Re-run with high num_predict.",
+ "avg_total_s": 11.81,
+ "note": "2.5x slower than instruct even here; bad fit for tight on-device budget"
+}

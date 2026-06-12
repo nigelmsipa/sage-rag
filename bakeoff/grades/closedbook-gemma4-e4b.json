@@ -1,0 +1,15 @@
+{
+ "model": "gemma4-e4b",
+ "arm": "closed-book",
+ "n": 65,
+ "PASS_approx": 16,
+ "pass_rate": "~25%",
+ "rag_pass": "95%",
+ "standout": "BEST-calibrated: ~15+ honest I-do-not-know refusals on proprietary facts (ProduceMaxx, IFPS, PLU, injury rate) instead of fabricating",
+ "confident_errors": [
+  "cherries=climacteric (wrong)",
+  "PAL=Polygalacturonase (wrong)",
+  "crisping water=cold 34-40F (gold=warm 95-100F)"
+ ],
+ "note": "RAG champion is also honesty champion, but still ~3 dangerous confident-wrong answers"
+}

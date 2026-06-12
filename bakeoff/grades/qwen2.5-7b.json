@@ -1,0 +1,13 @@
+{
+ "model": "qwen2.5-7b",
+ "model_id": "qwen2.5:7b",
+ "n": 65,
+ "PASS": 61,
+ "PARTIAL": 3,
+ "FAIL": 1,
+ "fails": "blossom-end-rot (refused) - same as all models = retrieval gap",
+ "note": "most accurate but 27.4s/Q on GPU; got Rhizopus+cucumbers right",
+ "avg_total_s": 27.41,
+ "prefill_tps": null,
+ "decode_tps": 11.5
+}

@@ -1,0 +1,15 @@
+{
+ "model": "gemma4-e4b",
+ "model_id": "gemma4:e4b",
+ "params": "~8B",
+ "n": 65,
+ "gradeable": 51,
+ "PASS": 48,
+ "PARTIAL": 2,
+ "FAIL": 1,
+ "truncated": 14,
+ "pass_rate_on_answered": "94%",
+ "note": "14/65 truncated by num_predict=512 (verbose dual-citations); needs re-run for fair full score; accuracy where answered ~94%",
+ "avg_total_s": 39.47,
+ "decode_tps": 15.6
+}
