@@ -85,12 +85,14 @@ if not KBS:
 
 
 def embed(text, model):
-    body = json.dumps({"model": model, "prompt": text,
+    body = json.dumps({"model": model, "input": text,
                        "keep_alive": EMBED_KEEP_ALIVE}).encode()
-    req = urllib.request.Request(OLLAMA + "/api/embeddings", data=body,
+    req = urllib.request.Request(OLLAMA + "/api/embed", data=body,
                                  headers={"Content-Type": "application/json"})
     with urllib.request.urlopen(req, timeout=120) as r:
-        v = np.array(json.loads(r.read())["embedding"], dtype=np.float32)
+        resp = json.loads(r.read())
+        raw = resp.get("embeddings", [resp.get("embedding")])[0]
+        v = np.array(raw, dtype=np.float32)
     return v / (np.linalg.norm(v) + 1e-8)
 
 
