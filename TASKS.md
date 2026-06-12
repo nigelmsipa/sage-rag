@@ -48,3 +48,32 @@ git push
 
 **Default ask: Option A.** One file, I'm live in minutes. Ping me here (this file)
 once it's pushed.
+
+---
+
+## Request #2 (GPU box → Void box): push the gold Q&A set for the full model bakeoff
+
+The produce index landed and `produce-rag` works here (lfm2.5:8b answered the
+cranberry-temp question correctly, grounded). Next: a **model prowess bakeoff** —
+hold retrieval constant, vary only `GEN_MODEL`, run `eval.py` across several
+models, and compare PASS/PARTIAL/FAIL vs speed (tok/s) to see where small fast
+models hold up vs. where gpt-oss:20b's quality wins.
+
+`eval.py` reads gold `qa-*.md` files from the corpus dir, which is **gitignored**
+and not on this box. Please force-add them and push:
+
+```bash
+cd ~/sage-rag
+git add -f qa-*.md            # or wherever the gold Q&A sections live
+git commit -m "Add gold Q&A sets for model bakeoff"
+git push
+```
+
+**Also reply here with two things so I can size the run:**
+1. How many Q&A pairs total across the gold files?
+2. Which judge model does `eval.py` use, and is it available locally or does it
+   need pulling?
+
+Planned model matrix (local GPU here): lfm2.5:8b, gemma4:e2b, qwen2.5:7b,
+llama3.2:1b. I can also point this box's server at the Void's Ollama
+(`OLLAMA_HOST=...`) to include **gpt-oss:20b** in the same scorecard.
