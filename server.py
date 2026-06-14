@@ -51,7 +51,9 @@ EMBED_KEEP_ALIVE = "30m"   # keep the embedder resident so retrieval stays warm
 
 # ---- OpenRouter (GPU generation; falls back to local Ollama) ----------------
 OPENROUTER_URL     = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_MODEL   = "openai/gpt-oss-20b"   # paid tier (no free rate-limit fallback to local)
+# Overridable via env so the bakeoff can sweep cloud models (gpt-oss-120b, hermes,
+# Claude/GPT/Gemini) through the same RAG path. Retrieval still embeds locally.
+OPENROUTER_MODEL   = os.environ.get("SAGE_OPENROUTER_MODEL", "openai/gpt-oss-20b")
 OPENROUTER_KEYFILE = os.path.expanduser("~/.config/sage/openrouter.key")
 
 
@@ -185,8 +187,11 @@ def ollama_chunk(delta, done=False):
 def open_openrouter(convo):
     """Open a streaming OpenRouter chat completion. Raises on failure so the
     caller can fall back to Ollama BEFORE any bytes go to the phone."""
+    # Cap max_tokens: without it OpenRouter reserves the model's full default
+    # output (e.g. 65536), and for pricey reasoning models (gpt-5.5-pro) that
+    # reservation can exceed the balance and 402 before auto-top-up reacts.
     body = json.dumps({"model": OPENROUTER_MODEL, "messages": convo,
-                       "stream": True}).encode()
+                       "stream": True, "max_tokens": NUM_PREDICT}).encode()
     req = urllib.request.Request(OPENROUTER_URL, data=body, headers={
         "Authorization": f"Bearer {OPENROUTER_KEY}",
         "Content-Type": "application/json",

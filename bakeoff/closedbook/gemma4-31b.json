@@ -1,0 +1,594 @@
+{
+ "model": "gemma4-31b",
+ "arm": "closed-book",
+ "backend": "openrouter",
+ "slug": "google/gemma-4-31b-it",
+ "n": 65,
+ "results": [
+  {
+   "section": "qa-01-storage-reference",
+   "q": "What is chilling injury (CI) and when does it occur?",
+   "gold": "Chilling injury is biological damage caused by exposing tropical and subtropical produce to non-freezing temperatures below their specific threshold, typically between 5\u00b0C and 12.5\u00b0C. It causes membrane phase transition, cellular ion leakage, and enzymatic browning.",
+   "answer": "**Chilling Injury (CI)** is physiological damage that occurs in sensitive produce (primarily tropical and subtropical fruits and vegetables) when they are stored or transported at temperatures above their freezing point but below their critical temperature threshold.\n\nUnlike freezing injury, which is caused by ice crystal formation, chilling injury is a metabolic failure. It occurs when the produce's cell membranes lose their fluidity and integrity, leading to cellular leakage and dysfunction.\n\n**When it occurs:**\nCI occurs when produce is exposed to \"too cold\" temperatures\u2014typically between **0\u00b0C and 13\u00b0C (32\u00b0F to 55\u00b0F)**, depending on the specific commodity.\n\n**Common Examples:**\n*   **Bananas:** Turning grey/black or failing to ripen if held below 13\u00b0C (55\u00b0F).\n*   **Tomatoes:** Developing \"pitting\" or water-soaked spots and losing flavor if held below 10\u00b0C (50\u00b0F).\n*   **Cucumber/Eggplant:** Developing sunken pits and watery lesions if held below 7-10\u00b0C (45-50\u00b0F).\n\n**Visual Indicators in Retail:**\n*   Surface pitting or sunken lesions.\n*   Internal browning or discoloration.\n*   Failure to ripen properly after being moved to room temperature.\n*   Increased susceptibility to decay and pathogens due to compromised cell walls.",
+   "prompt_tok": 74,
+   "completion_tok": 293,
+   "total_s": 15.39
+  },
+  {
+   "section": "qa-01-storage-reference",
+   "q": "Why must Belgian endive (witloof) be kept away from light in storage?",
+   "gold": "Light exposure induces rapid greening and causes extreme bitterness in Belgian endive, destroying its commercial value.",
+   "answer": "Belgian endive must be kept away from light to prevent **bitterness**. \n\nExposure to light triggers photosynthesis in the heart of the plant, which causes the leaves to turn green. This physiological change increases the production of bitter compounds (such as lactucopicrin), degrading the flavor profile and reducing the quality of the product. To maintain its creamy white color and mild taste, it is typically stored in opaque containers or wrapped in dark materials.",
+   "prompt_tok": 90,
+   "completion_tok": 92,
+   "total_s": 1.48
+  },
+  {
+   "section": "qa-01-storage-reference",
+   "q": "What is the chilling threshold for fresh olives, and at what temperature should they be stored?",
+   "gold": "Fresh olives chill-injure below 5\u00b0C and should be held at 41\u201350\u00b0F / 5\u201310\u00b0C with 85\u201390% RH for 4\u20136 weeks.",
+   "answer": "Fresh olives are chilling-sensitive. The chilling threshold (the temperature at which chilling injury occurs) is typically around **4\u00b0C to 7\u00b0C (39\u00b0F to 45\u00b0F)**, depending on the variety.\n\n**Storage Recommendations:**\n*   **Optimal Temperature:** Store fresh olives between **8\u00b0C and 12\u00b0C (46\u00b0F to 54\u00b0F)**.\n*   **Risk:** Storing them below 7\u00b0C can lead to pitting, skin discoloration (browning), and an increased susceptibility to decay.\n\nIf storing for longer durations, maintain high relative humidity (90\u201395%) to prevent shriveling.",
+   "prompt_tok": 90,
+   "completion_tok": 145,
+   "total_s": 1.7
+  },
+  {
+   "section": "qa-01-storage-reference",
+   "q": "What does temperature fluctuation do to blueberries?",
+   "gold": "Moisture condensation from temperature swings destroys the protective natural wax bloom on blueberry skin and encourages rapid fungal decay. Store at 31\u201332\u00b0F / \u20130.5 to 0\u00b0C.",
+   "answer": "Temperature fluctuation, specifically instability between high and low temperatures, negatively impacts blueberries in three primary ways:\n\n**1. Accelerated Respiration and Decay**\nBlueberries have a high respiration rate. When temperatures spike, the fruit breathes faster, consuming its internal sugars and acids more quickly. This accelerates senescence (aging), leading to a shorter shelf life and a faster transition to over-ripeness.\n\n**2. Condensation and Mold (The \"Dew Point\" Effect)**\nFrequent fluctuations between cool storage and warmer ambient air cause condensation to form on the surface of the berries. Moisture is the primary driver for *Botrytis cinerea* (grey mold). Because blueberries have a waxy bloom that is designed to repel water, any \"sweating\" caused by temperature swings creates micro-environments of moisture that trigger rapid fungal growth.\n\n**3. Texture and Structural Degradation**\nRapid temperature changes can stress the cellular structure of the berry. Fluctuations can lead to \"leaking\" or softness, as the cell membranes lose integrity. This results in a loss of the characteristic \"snap\" or firmness, making the fruit feel mushy to the consumer.\n\n**Operational Summary:** To maintain quality, blueberries require a consistent \"cold chain\" (ideally 32\u00b0F to 36\u00b0F / 0\u00b0C to 2\u00b0C). Even a few degrees of fluctuation can shave days off the marketable life of the product.",
+   "prompt_tok": 69,
+   "completion_tok": 293,
+   "total_s": 15.52
+  },
+  {
+   "section": "qa-01-storage-reference",
+   "q": "What happens to asparagus in warm storage or near ethylene sources?",
+   "gold": "Asparagus rapidly lignifies (toughens the spears) if exposed to ethylene or warm temperatures. Chilling below 2\u00b0C causes dull, gray-green limp tips. Store at 36\u00b0F / 2.5\u00b0C with 95\u2013100% RH.",
+   "answer": "**Warm Storage**\nAsparagus has a high respiration rate. When stored in warm temperatures, this rate increases, leading to:\n*   **Rapid Nutrient Loss:** Specifically a decline in soluble sugars.\n*   **Toughening:** The stalks become woody and fibrous more quickly.\n*   **Water Loss:** Increased transpiration leads to shriveling and wilting.\n*   **Accelerated Decay:** Increased susceptibility to bacterial soft rot and molds.\n\n**Ethylene Exposure**\nAsparagus is highly sensitive to ethylene. Exposure causes:\n*   **Chlorophyll Degradation:** The spears lose their green color and turn yellow.\n*   **Scaliness:** The scales (small leaf-like structures on the stalk) may open or flare.\n*   **Accelerated Senescence:** The overall aging process of the plant is sped up, shortening shelf life.",
+   "prompt_tok": 84,
+   "completion_tok": 182,
+   "total_s": 2.73
+  },
+  {
+   "section": "qa-02-ethylene-management",
+   "q": "What percentage of premature produce spoilage in retail and home settings is caused by unmanaged ethylene cross-exposure rather than temperature abuse?",
+   "gold": "Over 60% of premature produce spoilage stems from unmanaged ethylene cross-exposure, not simple temperature abuse.",
+   "answer": "There is no single, industry-standard percentage that defines the split between ethylene cross-exposure and temperature abuse because the two factors are symbiotic; higher temperatures accelerate the rate at which produce synthesizes and responds to ethylene.\n\nHowever, from an operational standpoint:\n\n**1. Temperature abuse is the primary driver.** In both retail and home settings, improper temperature management (failure to maintain the \"cold chain\") is the leading cause of spoilage. Temperature affects the metabolic rate of every cell in the produce, regardless of ethylene levels.\n\n**2. Ethylene is a critical secondary catalyst.** While temperature is the primary cause, ethylene cross-exposure is responsible for the majority of \"premature\" quality degradation in specific mixed-commodity environments (e.g., storing apples with leafy greens). In these specific scenarios, ethylene can trigger senescence (aging) and chlorophyll breakdown even if temperatures are kept within a reasonable range.\n\n**Summary:** If forced to categorize, temperature abuse accounts for the vast majority of overall shrink. Ethylene is typically viewed as a compounding factor that accelerates the spoilage initiated or exacerbated by temperature. Specific percentages are not tracked as distinct KPIs in retail audits because they almost always occur simultaneously.",
+   "prompt_tok": 87,
+   "completion_tok": 242,
+   "total_s": 4.93
+  },
+  {
+   "section": "qa-02-ethylene-management",
+   "q": "Do cucumbers produce significant ethylene?",
+   "gold": "No. Cucumbers generate only 0.1\u20131.0 \u00b5L\u00b7kg\u207b\u00b9\u00b7hr\u207b\u00b9, making them low producers. However, they are highly sensitive to ethylene from other sources.",
+   "answer": "No, cucumbers do not produce significant amounts of ethylene; they are considered **low ethylene producers**.\n\nHowever, they are **highly sensitive** to ethylene. Exposure to ethylene from other fruits (such th\u1ed1ng as apples, bananas, or tomatoes) will cause cucumbers to yellow rapidly, soften, and spoil prematurely. For this reason, they should be stored away from climacteric fruits.",
+   "prompt_tok": 66,
+   "completion_tok": 77,
+   "total_s": 3.53
+  },
+  {
+   "section": "qa-02-ethylene-management",
+   "q": "What is the minimum clearance requirement from walls and the rule about floor-stacking in walk-in coolers?",
+   "gold": "A minimum of 4 inches of clearance from walls must be maintained, and floor-stacking must be strictly avoided to ensure adequate air circulation.",
+   "answer": "**Wall Clearance**\nThe standard minimum clearance from walls is **2 inches**. This is required to ensure adequate airflow around the perimeter of the cooler and to prevent condensation or mold growth on the walls.\n\n**Floor-Stacking Rule**\nItems must not be stored directly on the floor. The industry standard and health code requirement is a minimum of **6 inches** of clearance between the floor and the bottom shelf or product. This allows for proper cleaning and prevents pests from nesting under product.",
+   "prompt_tok": 94,
+   "completion_tok": 100,
+   "total_s": 1.94
+  },
+  {
+   "section": "qa-02-ethylene-management",
+   "q": "How much ethylene can a standard 1.1 kg passive filter tube absorb?",
+   "gold": "Up to 4 liters of ethylene gas.",
+   "answer": "The absorption capacity of a standard 1.1 kg passive ethylene filter tube (typically containing potassium permanganate $\\text{KMnO}_4$ impregnated alumina) varies based on the manufacturer, but generally falls between **15 and 30 grams of ethylene**.\n\nThe actual lifespan and total absorption depend on three critical variables:\n\n1.  **Airflow/Ventilation:** Higher airflow increases the volume of ethylene passing through the filter, speeding up saturation.\n2.  **Ambient Ethylene Concentration:** Higher concentrations of ethylene (e.g., in a container full of climacteric fruit) will deplete the filter's capacity faster.\n3.  **Humidity:** Extremely high humidity can sometimes block the pores of the alumina substrate, reducing the effective surface area for the chemical reaction.\n\nIn a standard shipping container (approx. 67 $\\text{m}^3$), a single 1.1 kg tube is typically designed to maintain ethylene levels below a certain threshold for 20 to 40 days, depending on the commodity.",
+   "prompt_tok": 76,
+   "completion_tok": 215,
+   "total_s": 16.63
+  },
+  {
+   "section": "qa-02-ethylene-management",
+   "q": "What ethylene concentration is applied to ripen avocados commercially?",
+   "gold": "100 ppm in a controlled ripening room, or 10 ppm for a continuous trickle application.",
+   "answer": "In commercial ripening rooms, avocados are typically exposed to ethylene concentrations between **100 parts per million (ppm) and 200 ppm**.\n\nKey operational details include:\n\n*   **Exposure Duration:** This concentration is usually maintained for 24 to 48 hours, depending on the initial maturity stage of the fruit.\n*   **Environmental Controls:** To ensure even ripening, ethylene is applied in conjunction with controlled temperatures (typically between 60\u00b0F and 68\u00b0F / 15\u00b0C to 20\u00b0C) and high humidity (90-95%) to prevent shriveling.\n*   **Ventilation:** After the initial exposure period, the rooms are vented to remove excess ethylene and prevent over-ripening or \"off-flavors\" caused by anaerobic respiration.",
+   "prompt_tok": 71,
+   "completion_tok": 172,
+   "total_s": 3.25
+  },
+  {
+   "section": "qa-03-ripeness-identification",
+   "q": "What is the difference between climacteric and non-climacteric fruits?",
+   "gold": "Climacteric fruits continue to ripen after harvest via a spike in ethylene production and respiration; non-climacteric fruits do not get sweeter or improve in flavor once separated from the plant and must be harvested at peak maturity.",
+   "answer": "The primary difference is whether the fruit continues to ripen after being harvested from the parent plant. This process is driven by **ethylene**, a natural gaseous plant hormone.\n\n**Climacteric Fruits**\nThese fruits experience a burst of ethylene production and an increase in cellular respiration after harvest. This allows them to be picked while mature but unripe (firm), and they will continue to soften, sweeten, and develop color on the shelf or at home.\n*   **Examples:** Bananas, avocados, tomatoes, apples, mangoes, and pears.\n*   **Retail Impact:** These can be shipped \"green\" to reduce bruising and spoilage during transit, then \"ripened\" in specialized ethylene rooms or at the store.\n\n**Non-Climacteric Fruits**\nThese fruits do not have a dramatic spike in ethylene production after harvest. Once they are picked, they stop ripening. While they may soften or decay over time, they will not get sweeter or change color significantly.\n*   **Examples:** Citrus fruits (lemons, oranges), grapes, strawberries, blueberries, and pineapples.\n*   **Retail Impact:** These must be harvested at peak ripeness. If they are picked too early, they will remain tasteless or sour regardless of how long they sit.\n\n**Operational Tip:** In a retail setting, never store climacteric fruits (like apples or bananas) directly next to sensitive non-climacteric produce (like leafy greens or berries), as the ethylene gas emitted by the climacteric fruit will cause the other produce to spoil or yellow prematurely.",
+   "prompt_tok": 77,
+   "completion_tok": 325,
+   "total_s": 43.38
+  },
+  {
+   "section": "qa-03-ripeness-identification",
+   "q": "Are cherries climacteric or non-climacteric?",
+   "gold": "Non-climacteric; their sugar levels are fixed at the moment of harvest and they must be purchased fully ripe.",
+   "answer": "Cherries are **non-climacteric**. \n\nThis means they do not ripen significantly once they are harvested. Because they lack a burst of ethylene production to trigger ripening after picking, they must be harvested at peak maturity to ensure optimal flavor and sweetness.",
+   "prompt_tok": 73,
+   "completion_tok": 53,
+   "total_s": 2.08
+  },
+  {
+   "section": "qa-03-ripeness-identification",
+   "q": "What happens when a banana is refrigerated before it is ripe?",
+   "gold": "Cold exposure permanently halts the ripening enzymes and causes the peel to oxidize, turning a dull gray or black.",
+   "answer": "When a banana is refrigerated before it is ripe, the ripening process is effectively halted, but the fruit is permanently damaged through a process called **chilling injury**.\n\nHere is specifically what happens:\n\n1.  **Ethylene Blockage:** Cold temperatures inhibit the production and action of ethylene, the hormone responsible for ripening. This prevents the starches from converting into sugars, meaning the banana may never fully ripen or develop its characteristic sweetness.\n2.  **Cellular Breakdown:** The cold damages the cell membranes in the peel. This causes the peel to oxidize and turn dark brown or black rapidly.\n3.  **Cosmetic vs. Internal State:** While the outside turns black (mimicking an overripe banana), the inside remains hard, starchy, and flavorless because the internal ripening process was stopped.\n4.  **Texture Change:** The fruit often develops a mealy or \"off\" texture due to the disruption of the cellular structure.",
+   "prompt_tok": 73,
+   "completion_tok": 195,
+   "total_s": 11.37
+  },
+  {
+   "section": "qa-03-ripeness-identification",
+   "q": "What is blossom end rot on a tomato and what causes it?",
+   "gold": "A dark, sunken lesion on the bottom of the fruit caused by pre-harvest calcium deficiency.",
+   "answer": "**Blossom end rot (BER)** is a physiological disorder in tomatoes where the bottom end of the fruit develops a water-soaked spot that eventually turns into a sunken, leathery, dark brown or black patch of necrotic tissue.\n\nUnlike a fungus or bacteria, BER is not an infectious disease. It is caused by a **calcium deficiency within the developing fruit.**\n\nWhile a lack of calcium in the soil can be the cause, it is more commonly caused by the plant's inability to transport calcium to the fruit. The primary drivers are:\n\n1.  **Inconsistent Watering:** Calcium is moved through the plant via water (transpiration). Periods of drought followed by heavy watering disrupt this flow, preventing calcium from reaching the blossom end.\n2.  **Root Damage:** Severing roots during transplanting or through deep cultivation hinders the plant's ability to uptake calcium.\n3.  **Excessive Nitrogen:** Over-fertilizing with nitrogen can cause rapid foliage growth, which \"outcompetes\" the developing fruit for available calcium.\n4.  **Extreme Temperatures:** Very high heat can cause the plant to shut down transpiration, stopping the movement of calcium.",
+   "prompt_tok": 74,
+   "completion_tok": 241,
+   "total_s": 9.39
+  },
+  {
+   "section": "qa-03-ripeness-identification",
+   "q": "How can you tell a bunch of grapes is fresh versus old from the stems?",
+   "gold": "Fresh grapes have bright green, pliable, flexible stems; aged grapes have brown, dry, and brittle stems from oxidation and moisture loss.",
+   "answer": "To determine the freshness of grapes by looking at the stems, check for the following:\n\n*   **Color:** Fresh stems are green and vibrant. Old stems turn brown, tan, or woody.\n*   **Flexibility:** Fresh stems are pliable and spring back when bent. Old stems become brittle and snap easily.\n*   **Hydration:** If the stems look shriveled, wrinkled, or \"dried out,\" the grapes are old and have lost moisture.\n*   **Attachment:** Look for \"shattering\" (grapes falling off the stem). If you see many loose grapes at the bottom of the container or gaps in the bunch where grapes have detached, the stems are degrading and the fruit is past its prime.",
+   "prompt_tok": 88,
+   "completion_tok": 150,
+   "total_s": 1.72
+  },
+  {
+   "section": "qa-04-wet-rack-science",
+   "q": "What is turgor pressure and why does it matter for produce?",
+   "gold": "Turgor pressure is the outward force of fluid against plant cell walls that keeps non-woody plants structurally firm and crisp. When a plant loses water through transpiration after harvest, turgor pressure drops and the tissue wilts. Restoring it is the entire goal of crisping.",
+   "answer": "**Turgor pressure** is the force exerted by water within a plant cell's vacuole against the cell wall. When a cell is full of water, it becomes rigid (turgid), acting like an inflated balloon that provides structural support to the plant.\n\n**Why it matters for produce:**\n\n1.  **Texture and Crispness:** Turgor pressure is what makes a vegetable \"crisp.\" In produce like celery, lettuce, or carrots, high turgor pressure creates the characteristic \"snap.\"\n2.  **Shelf Life and Visual Appeal:** As produce loses water through transpiration and respiration, turgor pressure drops. This leads to **wilting, shriveling, and softness**, which are primary indicators of age and quality loss to the consumer.\n3.  **Quality Control (Post-Harvest):** Maintaining turgor is the primary goal of humidity management in grocery operations. This is why misting systems are used in produce departments and why high-respiration items (like leafy greens) are stored in high-humidity coolers to prevent water loss and subsequent loss of turgidity.",
+   "prompt_tok": 86,
+   "completion_tok": 230,
+   "total_s": 19.18
+  },
+  {
+   "section": "qa-04-wet-rack-science",
+   "q": "What is PAL and why does it accelerate browning?",
+   "gold": "Phenylalanine ammonia-lyase (PAL) is the rate-limiting enzyme in the phenylpropanoid pathway. Physical wounding triggers its synthesis, causing a massive flood of new phenolic compounds that provide additional fuel for the PPO browning cascade.",
+   "answer": "**PAL** stands for **Phenylalanine Ammonia-Lyase**. It is an enzyme found naturally in many fruits and vegetables, most notably in apples, pears, and stone fruits.\n\n**Why it accelerates browning:**\nPAL is the primary enzyme responsible for the first step in the biosynthesis of phenolic compounds. Specifically, it converts the amino acid **phenylalanine** into **trans-cinnamic acid**. \n\nThis process accelerates browning through the following mechanism:\n\n1. **Precursor Production:** PAL increases the concentration of phenolic compounds (phenols) within the plant tissue.\n2. **Substrate for PPO:** These phenols serve as the direct substrates for another enzyme, **Polyphenol Oxidase (PPO)**.\n3. **Oxidation:** When a fruit is bruised or cut, PPO reacts with these phenols in the presence of oxygen to create **quinones**.\n4. **Polymerization:** These quinones then polymerize to form **melanins**, which are the brown-colored pigments seen on the surface of the produce.\n\nIn short, while PPO is the enzyme that actually creates the brown color, **PAL provides the \"fuel\" (phenols)** that PPO needs to work. Higher PAL activity leads to a higher concentration of substrates, which speeds up the browning process.",
+   "prompt_tok": 72,
+   "completion_tok": 272,
+   "total_s": 10.92
+  },
+  {
+   "section": "qa-04-wet-rack-science",
+   "q": "Is heat shock a restorative treatment for already-browned produce?",
+   "gold": "No \u2014 heat shock is exclusively a preventative measure. It cannot rescue produce that has already suffered advanced cellular senescence, membrane collapse, or widespread melanin accumulation.",
+   "answer": "No. Heat shock is a **preventative** treatment, not a restorative one.\n\nIn produce operations (specifically for asparagus and certain cruciferous vegetables), heat shock\u2014also known as blanching or thermal conditioning\u2014is used to deactivate enzymes like polyphenol oxidase (PPO) before the produce is chilled or stored. This prevents the biochemical reactions that cause browning.\n\nOnce the cellular structure has collapsed and the enzymes have already oxidized the tissues (resulting in browning), the damage is chemical and structural. Heat cannot reverse this process; applying heat to already-browned produce would likely accelerate degradation or \"cook\" the product, further reducing its shelf life and quality.",
+   "prompt_tok": 74,
+   "completion_tok": 136,
+   "total_s": 6.09
+  },
+  {
+   "section": "qa-04-wet-rack-science",
+   "q": "Why are metal-core twist ties the worst choice for bundling produce?",
+   "gold": "They have 0% elastic recovery, permanently deforming under load. They concentrate the entire compressive force onto a single microscopic line, acting like a wire saw that slices directly into expanding epidermal and vascular tissue.",
+   "answer": "Metal-core twist ties are the worst choice for produce bundling for three primary reasons:\n\n1.  **Food Safety (Physical Contaminants):** The thin metal wire can fatigue and snap, or the plastic coating can tear. This allows small, sharp shards of metal to enter the supply chain, posing a significant risk of physical contamination and potential consumer injury.\n2.  **Product Damage (Piercing/Bruising):** The concentrated pressure of a thin wire creates \"pinch points.\" On soft produce (like asparagus, scallions, or herbs), the wire can easily cut into the skin or stem, causing bruising, scarring, or promoting rot by breaking the product's natural protective barrier.\n3.  **Operational Inefficiency:** Metal ties are slower to apply and remove compared to rubber bands or biodegradable clips. Furthermore, they are not compostable or recyclable in the same stream as the organic waste, creating more landfill waste in the prep area.",
+   "prompt_tok": 86,
+   "completion_tok": 195,
+   "total_s": 6.75
+  },
+  {
+   "section": "qa-04-wet-rack-science",
+   "q": "What is the active ingredient in ProduceMaxx and at what concentration?",
+   "gold": "Hypochlorous acid (HOCl) at 0.45% concentration, supported by 99.55% inert ingredients functioning as aqueous diluents and inorganic stabilizing salts.",
+   "answer": "I do not have a record of a specific commercial produce treatment or chemical product called \"ProduceMaxx\" in my knowledge base, nor its active ingredient or concentration. \n\nIf this is a proprietary blend or a regional product, I recommend checking the **Safety Data Sheet (SDS)** or the product label for the exact chemical composition.",
+   "prompt_tok": 86,
+   "completion_tok": 68,
+   "total_s": 1.45
+  },
+  {
+   "section": "qa-05-diseases-and-spoilage",
+   "q": "What is the Q\u2081\u2080 temperature coefficient, and why does it matter for berry storage?",
+   "gold": "It is the biological principle that a 10\u00b0C (18\u00b0F) increase in ambient temperature accelerates respiration and enzymatic degradation by 200% to 400%. Any cold chain breakdown immediately triggers explosive fungal growth in berries.",
+   "answer": "**What it is:**\nThe $Q_{10}$ temperature coefficient is a measure of the rate of change of a biological or chemical system as a consequence of increasing the temperature by 10\u00b0C. Mathematically, it is the ratio of the reaction rate at a given temperature to the rate at a temperature 10 degrees lower.\n\n**Why it matters for berry storage:**\nBerries are highly perishable fruits with high respiration rates. The $Q_{10}$ value is critical for the following reasons:\n\n1.  **Respiration Rate:** Most produce has a $Q_{10}$ for respiration between 2 and 3. This means that for every 10\u00b0C increase in storage temperature, the berry consumes its stored sugars and oxygen 2 to 3 times faster, drastically accelerating senescence (aging).\n2.  **Shelf-Life Prediction:** Because berries have a very narrow window of viability, small temperature fluctuations (even 2\u20133\u00b0C) significantly shorten their marketable life. Understanding the $Q_{10}$ allows operators to calculate the \"shelf-life cost\" of temperature abuse during transit.\n3.  **Ethylene Production:** $Q_{10}$ also applies to the production of ethylene (the ripening hormone). Higher temperatures accelerate ethylene synthesis, which triggers rapid softening and decay.\n4.  **Disease Progression:** The growth rates of common berry molds (like *Botrytis cinerea*) also follow a $Q_{10}$ pattern; warming the environment exponentially increases the speed at which fungal colonies spread through a clamshell or punnet.",
+   "prompt_tok": 90,
+   "completion_tok": 329,
+   "total_s": 16.79
+  },
+  {
+   "section": "qa-05-diseases-and-spoilage",
+   "q": "What is the late-stage visual signature of Rhizopus soft rot?",
+   "gold": "White, web-like mycelium peppered with black sporangia on hair-like stalks approximately 0.10 inches long; the original fruit is reduced to a liquefied mass resting in its own dissolved cellular fluids.",
+   "answer": "The late-stage visual signature of *Rhizopus* soft rot is the appearance of a **dense, greyish-white \"fuzzy\" mycelium** that is heavily interspersed with **black pin-head spots (sporangia)**.\n\nKey characteristics of the late stage include:\n\n*   **Sporulation:** The initial white mold turns dark grey or black as the fungus produces thousands of tiny black spores.\n*   **Tissue Collapse:** The affected produce becomes completely water-soaked and collapses into a soft, mushy mass (complete loss of structural integrity).\n*   **Zonal Transition:** There is often a distinct, watery boundary between the healthy tissue and the decayed area.\n*   **Coloration:** While the mold is grey/black, the underlying fruit or vegetable typically turns a dull brown or tan.",
+   "prompt_tok": 74,
+   "completion_tok": 169,
+   "total_s": 10.91
+  },
+  {
+   "section": "qa-05-diseases-and-spoilage",
+   "q": "What does finding sporulating downy mildew on mature retail grapes tell you about the source farm?",
+   "gold": "It indicates a catastrophic failure in the vineyard's early-season fungicide application and canopy management, since grapes normally develop resistance to direct infection approximately 3 to 4 weeks post-bloom.",
+   "answer": "Finding sporulating downy mildew (*Plasmopara viticola*) on mature grapes in a retail setting indicates a **significant failure in the farm's Integrated Pest Management (IPM) program**, specifically regarding fungicide application and canopy management.\n\nSpecifically, it tells you the following about the source farm:\n\n1.  **Ineffective Fungicide Timing/Coverage:** Sporulation is the final stage of the disease cycle. For the mildew to reach this stage on mature fruit, the farm likely missed critical spray windows or failed to achieve adequate coverage in the fruit zone during the late stages of growth.\n2.  **Poor Canopy Management:** Downy mildew thrives in high humidity and stagnant air. Sporulation on the berries often suggests the canopy was too dense, preventing airflow and spray penetration, which created a microclimate conducive to infection.\n3.  **Late-Season Pressure:** It indicates the farm experienced high disease pressure (likely due to heavy rain or high humidity) during the \"drying down\" period, and the curative or protective treatments failed to hold.\n4.  **Lack of Pre-Shipment Inspection:** Since sporulating mildew is visually apparent (white, fluffy growth on the underside of leaves or berries), it suggests a lapse in quality control at the packing house or during the harvest sort.\n\n**Operational Note:** While the grapes may still be edible if the infection is superficial, the presence of sporulation suggests the fruit has a significantly reduced shelf life and is prone to rapid secondary decay, making them a liability for retail inventory.",
+   "prompt_tok": 80,
+   "completion_tok": 314,
+   "total_s": 5.84
+  },
+  {
+   "section": "qa-05-diseases-and-spoilage",
+   "q": "Is russet spotting reversible, and how should affected heads be handled?",
+   "gold": "No \u2014 the damage is irreversible. Affected heads must be removed and discarded or repurposed; they cannot be recovered.",
+   "answer": "**No, russet spotting is not reversible.** Russet spotting is a physiological disorder (surface scarring) that occurs during the growth phase of the potato; once the skin has corked or scarred, it cannot be \"cured\" or removed without peeling the potato.\n\n**How affected heads/lots should be handled:**\n\n1.  **Grading and Sorting:** Affected potatoes should be sorted and downgraded. Russet spotting typically does not affect the internal quality or shelf-life of the potato, but it significantly lowers the aesthetic value and \"grade.\"\n2.  **Targeting the Right Channel:** Do not sell heavily spotted produce as \"Premium\" or \"Choice.\" Redirect affected stock to:\n    *   **Processing:** Sell to industrial users for dicing, mashing, or frying where the skin is removed.\n    *   **Discount/Bargain Bins:** Sell as \"ugly produce\" at a reduced price.\n    *   **Institutional Food Service:** Sell to kitchens where peeling is standard practice.\n3.  **Quality Control:** Ensure the spotting is actually russet spotting (physiological) and not a fungal or bacterial pathogen (like soft rot or late blight). If the spots are sunken, weeping, or accompanied by odors, they must be culled and discarded to prevent cross-contamination.\n4.  **Merchandising:** If selling spotted potatoes at retail, avoid high-visibility displays. Use bagging to minimize the visual impact while maintaining a competitive price point.",
+   "prompt_tok": 75,
+   "completion_tok": 307,
+   "total_s": 5.86
+  },
+  {
+   "section": "qa-05-diseases-and-spoilage",
+   "q": "What does a shipment with an unusually high rapid anthracnose breakdown rate indicate about the supply chain?",
+   "gold": "A failure in pre-harvest field fungicide management or inadequate postharvest hot-water treatments at the packinghouse; the produce manager should aggressively seek credit from the supplier.",
+   "answer": "An unusually high rate of rapid anthracnose breakdown typically indicates a failure in **temperature management (the cold chain)** and/or **pre-harvest fungicide application.**\n\nSpecifically, it points to the following supply chain breakdowns:\n\n1.  **Temperature Abuse:** Anthracnose (*Colletotrichum* spp.) is often latent; the fungi are present on the fruit but dormant. A \"breakdown\" occurs when the fruit is exposed to warm, humid conditions (temperature spikes) during transit or staging, which triggers the fungus to activate and colonize the tissue rapidly.\n2.  **Ineffective Post-Harvest Cooling:** A failure to rapidly \"pull down\" the field heat (precooling) allows the fruit to remain in the danger zone longer, accelerating fungal growth before the shipment is stabilized.\n3.  **Poor Field Sanitization/Treatment:** High breakdown rates suggest that the pre-harvest fungicide program was inadequate or that the fruit was harvested during a period of high rainfall/humidity without sufficient preventative treatment.\n4.  **Excessive Transit Time:** If the \"dwell time\" in uncontrolled environments (loading docks, customs, or cross-docks) was too long, the resulting condensation (sweating) on the produce creates the ideal moisture environment for spores to germinate.",
+   "prompt_tok": 91,
+   "completion_tok": 264,
+   "total_s": 8.17
+  },
+  {
+   "section": "qa-06-receiving-protocols",
+   "q": "What is the Q10 rule and why does it matter for produce receiving?",
+   "gold": "The Q10 rule states that for every 10\u00b0C (18\u00b0F) rise in temperature, the rate of biological deterioration doubles or triples. For most horticultural commodities, the Q10 value ranges between 2.0 and 3.0.",
+   "answer": "The **$\\text{Q}_{10}$ rule** (or temperature coefficient) is a biological principle stating that the rate of a chemical reaction\u2014specifically the rate of respiration and senescence (aging) in produce\u2014roughly **doubles or triples for every $10^\\circ\\text{C}$ ($18^\\circ\\text{F}$) increase in temperature.**\n\nIn simpler terms: if the storage temperature of a commodity rises by $10^\\circ\\text{C}$, the produce \"ages\" twice as fast.\n\n### Why it matters for produce receiving:\n\n**1. Shelf-Life Erosion**\nProduce is alive and continues to breathe (respire) after harvest. Higher temperatures accelerate the consumption of stored sugars and water. Receiving produce at a temperature even a few degrees above the ideal specification can shave days off the retail shelf life, leading to premature wilting or spoilage.\n\n**2. Quality Degradation**\nIncreased respiration rates lead to faster breakdown of chlorophyll (yellowing), loss of firmness (softening), and increased ethylene production, which further accelerates ripening and decay in surrounding products.\n\n**3. The \"Danger Zone\" and Food Safety**\nWhile $\\text{Q}_{10}$ primarily describes metabolic decay, it correlates with microbial growth. Higher temperatures accelerate the multiplication of pathogens and decay-causing fungi/bacteria, increasing the risk of foodborne illness or rapid mold outbreaks.\n\n**4. Operational Accountability**\nFor a receiving manager, the $\\text{Q}_{10}$ rule justifies the strict enforcement of **Temperature Refusal** policies. If a shipment arrives \"warm,\" the produce has already undergone accelerated metabolic aging during transit; bringing it down to the correct temperature upon arrival stops further acceleration but cannot \"undo\" the shelf-life loss already incurred.",
+   "prompt_tok": 76,
+   "completion_tok": 367,
+   "total_s": 6.04
+  },
+  {
+   "section": "qa-06-receiving-protocols",
+   "q": "What is the optimal receiving temperature for Group 3 tropical commodities like bananas, melons, and pineapples?",
+   "gold": "13\u00b0C to 18\u00b0C (55\u00b0F to 65\u00b0F). Severe chilling injury occurs below 50\u00b0F.",
+   "answer": "The optimal receiving temperature for Group 3 tropical commodities typically ranges between **50\u00b0F and 60\u00b0F (10\u00b0C to 15.5\u00b0C)**.\n\nMaintaining this range is critical to prevent **chilling injury**, which occurs if these items are stored at temperatures closer to standard refrigeration (32\u00b0F\u201340\u00b0F). Signs of chilling injury in these commodities include internal browning, failure to ripen, or skin discoloration.",
+   "prompt_tok": 82,
+   "completion_tok": 97,
+   "total_s": 2.17
+  },
+  {
+   "section": "qa-06-receiving-protocols",
+   "q": "What does Botrytis rot look like in its early and advanced stages?",
+   "gold": "Early stage: tiny water-soaked, translucent lesions that progress to soft spongy rot. Advanced stage: masses of grayish-white sporulating mycelium on the fruit surface.",
+   "answer": "**Early Stages**\nIn the early phases, *Botrytis* (grey mold) often appears as subtle, water-soaked, or translucent lesions on the skin of the produce. You may see small, sunken brown spots or a slight discoloration where the skin looks \"soft.\" On some crops, like berries, it may start as a slight softening of the fruit surface without visible mold.\n\n**Advanced Stages**\nAs the infection progresses, the characteristic \"grey mold\" develops. The produce becomes covered in a dense, fuzzy, greyish-brown fungal growth (spores). The underlying tissue collapses and becomes mushy or necrotic. In high-humidity retail environments, this fuzz spreads rapidly from one piece of fruit to the rest of the case, often accompanied by a distinct musty odor.",
+   "prompt_tok": 76,
+   "completion_tok": 162,
+   "total_s": 3.06
+  },
+  {
+   "section": "qa-06-receiving-protocols",
+   "q": "What is the Food Traceability List (FTL) and which produce categories does it include?",
+   "gold": "The FTL identifies high-risk foods requiring enhanced traceability records. It includes fresh cucumbers, fresh herbs, leafy greens (including fresh-cut and bagged salads), melons, peppers, sprouts, tomatoes, and tropical tree fruits.",
+   "answer": "The **Food Traceability List (FTL)** is a specific list of high-risk foods identified by the FDA under the **Food Safety Modernization Act (FSMA) Rule 204**. Its primary purpose is to require companies to maintain more detailed records (Critical Tracking Events and Key Data Elements) to allow for rapid identification and removal of contaminated products from the supply chain during a foodborne illness outbreak.\n\nRather than listing every single product, the FTL categorizes items by risk level. For produce, the list includes:\n\n*   **Leafy Greens:** All varieties (e.g., spinach, romaine, kale, arugula).\n*   **Fresh-cut Produce:** Pre-cut fruits and vegetables (e.g., bagged salads, pre-sliced melons, cut mangoes).\n*   **Sprouts:** All types of sprouted seeds.\n*   **Certain Fresh Fruits:** Specifically those with high risk profiles or common contamination patterns (e.g., cantaloupe, honeydew, and some berries).\n\n**Note:** The FTL is a living document. While the categories above are the core produce focuses, the FDA can add or remove items based on updated epidemiological data and outbreak patterns.",
+   "prompt_tok": 80,
+   "completion_tok": 251,
+   "total_s": 13.56
+  },
+  {
+   "section": "qa-06-receiving-protocols",
+   "q": "Under F.O.B. terms, what does \"Suitable Shipping Condition\" legally mean?",
+   "gold": "It is an express warranty that the product was loaded in a biological condition robust enough to withstand normal transportation and arrive at the destination without abnormal deterioration.",
+   "answer": "In the context of F.O.B. (Free On Board) terms for produce and grocery operations, there is no single, universal legal definition of \"Suitable Shipping Condition\" codified in a general statute. Instead, it is a **contractual standard** that is interpreted based on industry customs, trade usage, and specific quality agreements.\n\nLegally and operationally, \"Suitable Shipping Condition\" generally implies that the goods meet three specific criteria at the point of transfer:\n\n1.  **Commercial Merchantability:** The product must be of a grade and quality that allows it to be sold in the ordinary course of business. For produce, this means meeting USDA or equivalent grade standards agreed upon in the purchase order.\n2.  **Packaging Integrity:** The goods must be packed in containers that are standard for that specific commodity, properly vented (for perishables), and structurally sound enough to withstand the rigors of the transit method (e.g., palletized and shrink-wrapped for LTL trucking).\n3.  **Physiological Stability:** For perishables, the product must be harvested, cooled, and prepped so that it can survive the expected transit time without premature spoilage, provided the carrier maintains the agreed-upon temperature.\n\n**Legal Application:**\nIf a dispute arises under F.O.B. terms, the \"Suitable Shipping Condition\" is used to determine **where the risk of loss shifted**. \n*   If the buyer can prove the product was not in \"suitable shipping condition\" *before* it crossed the F.O.B. point (the loading dock), the seller is liable for the loss. \n*   If the product was suitable at the point of origin but arrived damaged, the liability shifts to the carrier or the buyer, depending on the specific F.O.B. variation (Origin vs. Destination).\n\nBecause this term is subjective, most sophisticated grocery operations replace this phrase in their contracts with a **Detailed Specification Sheet** (defining Brix levels, size, color, and temperature) to avoid legal ambiguity.",
+   "prompt_tok": 91,
+   "completion_tok": 420,
+   "total_s": 4.29
+  },
+  {
+   "section": "qa-07-food-safety-fsma",
+   "q": "At what minimum temperature can Listeria monocytogenes actively grow?",
+   "gold": "Listeria can actively grow at temperatures as cold as 34\u00b0F (1\u00b0C), making it dangerous even inside properly functioning refrigerators.",
+   "answer": "*Listeria monocytogenes* can actively grow at temperatures as low as **0\u00b0C (32\u00b0F)**. \n\nBecause it is psychrotrophic, it is one of the few foodborne pathogens capable of multiplying during refrigerated storage.",
+   "prompt_tok": 73,
+   "completion_tok": 53,
+   "total_s": 1.06
+  },
+  {
+   "section": "qa-07-food-safety-fsma",
+   "q": "How many people did the Summer 2020 Salmonella Newport red onion outbreak sicken?",
+   "gold": "The outbreak sickened over 1,100 people in the United States and Canada.",
+   "answer": "The Summer 2020 *Salmonella* Newport outbreak linked to red onions sickened **1,222 people** across 49 states.",
+   "prompt_tok": 80,
+   "completion_tok": 34,
+   "total_s": 2.17
+  },
+  {
+   "section": "qa-07-food-safety-fsma",
+   "q": "Are raw seed sprouts TCS regardless of whether they have been cut?",
+   "gold": "Yes. All fresh sprouts (alfalfa, bean, clover, broccoli) are designated TCS globally regardless of whether they have been cut, because the warm, humid sprouting environment is optimal for Salmonella and E. coli amplification.",
+   "answer": "Yes. In the context of food safety and retail operations, raw seed sprouts are considered a **TCS (Time/Temperature Control for Safety)** food regardless of whether they are cut or uncut.\n\nThe reason is biological rather than structural. The warm, humid conditions required to grow sprouts are the same conditions that allow pathogens\u2014specifically *Salmonella* and *E. coli*\u2014to proliferate. Because the seeds themselves can be contaminated and the growth environment encourages rapid bacterial multiplication, sprouts are categorized as a high-risk food that must be maintained at **41\u00b0F (5\u00b0C) or colder** to inhibit pathogen growth.",
+   "prompt_tok": 74,
+   "completion_tok": 129,
+   "total_s": 3.47
+  },
+  {
+   "section": "qa-07-food-safety-fsma",
+   "q": "What is the primary CTE that retail produce departments must document most frequently?",
+   "gold": "The \"Receiving\" CTE \u2014 defined as when a food is received by someone other than a consumer after being transported from another location, including intra-company transfers.",
+   "answer": "The primary **Critical Tracking Event (CTE)** that retail produce departments must document most frequently is the **receipt of goods** (receiving).\n\nUnder the FDA's Food Safety Modernization Act (FSMA) Rule 204, produce items designated as \"high-risk\" require traceability. The receiving event is the most frequent point of documentation because it is the moment the retailer establishes the link between the supplier's Lot Code/GTIN and the internal inventory, triggering the \"Key Data Elements\" (KDEs) required to track the product through the store's internal movement and eventually to the point of sale.",
+   "prompt_tok": 75,
+   "completion_tok": 128,
+   "total_s": 2.83
+  },
+  {
+   "section": "qa-07-food-safety-fsma",
+   "q": "How often are retail grocery operations with extensive cut-produce operations inspected by health authorities?",
+   "gold": "Higher-risk operations face thorough unannounced inspections one to three times annually.",
+   "answer": "Inspection frequency varies by jurisdiction (city, county, or state) and the specific risk classification of the facility, but generally follows these patterns:\n\n**1. Risk Categorization**\nHealth departments categorize establishments by risk level. Retailers with \"extensive cut-produce operations\" are almost always classified as **High Risk** (or Category 1/Priority 1) because they perform \"Time/Temperature Control for Safety\" (TCS) processes, such as cutting melons or preparing pre-packaged salads, which increase the risk of pathogen proliferation.\n\n**2. Typical Inspection Intervals**\n*   **Routine Inspections:** High-risk grocery operations are typically inspected **2 to 4 times per year**. \n*   **High-Volume/High-Risk Hubs:** In some strict jurisdictions (e.g., New York City or Los Angeles), high-risk facilities may be inspected quarterly.\n\n**3. Variable Triggers (Non-Routine Inspections)**\nBeyond the scheduled cycle, inspections occur more frequently based on:\n*   **Complaint-Based:** A consumer report of illness or unsanitary conditions triggers an immediate inspection.\n*   **Foodborne Illness Outbreaks:** If a health department links a Salmonella or Listeria outbreak to a specific retail chain or supplier, \"spot checks\" increase.\n*   **Failure to Comply:** If a store receives a low score or critical violations during a routine visit, a **follow-up/re-inspection** usually occurs within 10 to 30 days.\n\n**4. Third-Party Audits (The \"Hidden\" Inspections)**\nWhile not government-mandated, large retail chains often subject their cut-produce departments to **internal quality assurance (QA) audits** or third-party audits (like SQF or BRC) **monthly or quarterly** to mitigate the risk of a massive recall.",
+   "prompt_tok": 77,
+   "completion_tok": 387,
+   "total_s": 6.69
+  },
+  {
+   "section": "qa-08-plu-codes-shrink",
+   "q": "What organization manages PLU codes globally, and in what year was the system adopted?",
+   "gold": "The International Federation for Produce Standards (IFPS) manages PLU codes globally. The system was adopted in 1990.",
+   "answer": "The **International Federation of Produce Standards (IFPS)** manages PLU (Price Look-Up) codes globally.\n\nThe system was adopted in **1974**.",
+   "prompt_tok": 77,
+   "completion_tok": 36,
+   "total_s": 1.15
+  },
+  {
+   "section": "qa-08-plu-codes-shrink",
+   "q": "What PLU codes are Shiitake and button mushrooms, and what is the financial risk of confusing them?",
+   "gold": "Shiitake is 4651; button mushroom is 4085. The margin loss on a single Shiitake transaction rung as button mushrooms can exceed five dollars.",
+   "answer": "**PLU Codes**\n*   **Button Mushrooms (White):** 4087\n*   **Shiitake Mushrooms:** 4651\n\n**Financial Risk**\nThe financial risk is significant due to the wide price gap between \"commodity\" mushrooms and \"specialty\" mushrooms. \n\n1.  **Margin Erosion:** Button mushrooms are low-cost staples, whereas Shiitakes are premium specialty items. If a cashier rings up Shiitakes as Button mushrooms, the store suffers a direct loss in revenue (undercharging).\n2.  **Shrink/Inventory Variance:** Because the weights and unit costs differ greatly, confusing the two creates \"phantom inventory.\" Your system will show an overage of cheap mushrooms and a shortage of expensive ones, distorting procurement data and leading to poor ordering decisions.\n3.  **Customer Friction:** If Button mushrooms are rung up as Shiitakes, the customer is overcharged. This leads to immediate requests for refunds or credits, which increases labor costs and diminishes customer trust.\n\nIn a high-volume retail environment, consistently miscoding specialty produce as commodity produce can lead to a measurable drop in the produce department's net profit margin.",
+   "prompt_tok": 82,
+   "completion_tok": 246,
+   "total_s": 12.23
+  },
+  {
+   "section": "qa-08-plu-codes-shrink",
+   "q": "What protocols ensure backroom-packaged produce (cut fruit, melon halves) is tare-compliant?",
+   "gold": "The tare must be perfectly calibrated on the backroom scale before the label is printed. If a customer uses a heavier bag like kraft paper instead of thin plastic, the POS must allow the cashier to manually override and deduct the heavier tare.",
+   "answer": "To ensure backroom-packaged produce is tare-compliant\u2014meaning the customer is paying for the product and not the weight of the packaging\u2014retailers implement the following protocols:\n\n**1. Scale Calibration and Zeroing (Taring)**\nThe primary protocol is the mandatory \"tare\" function on the digital scale. Operators must either:\n*   **Manual Tare:** Place the empty container on the scale and press the \"Tare\" or \"Zero\" button before adding product.\n*   **Preset Tare:** Program the scale with the specific weight of the container (e.g., 45g for a plastic clamshell) so the scale automatically subtracts that weight from the total.\n\n**2. Standardized Packaging**\nTo minimize variance, operations experts mandate the use of standardized containers. If a department uses three different sizes of bowls, they must have three distinct tare presets. Using non-standardized or improvised packaging (e.g., different brands of wrap or trays) is prohibited because it introduces weight inaccuracies.\n\n**3. Random Weight Audits (Spot Checks)**\nManagers perform \"blind\" audits where a finished, labeled package is taken from the shelf and re-weighed on a calibrated check-scale. The manager subtracts the known weight of the container; if the resulting net weight differs from the label by more than a small tolerance (typically 1-3%), the batch is pulled for re-labeling.\n\n**4. Employee Certification**\nStaff must be trained and \"signed off\" on the specific scale model used in the backroom. This ensures they understand the difference between \"Gross Weight\" (product + package) and \"Net Weight\" (product only).\n\n**5. Weights and Measures Compliance**\nRetailers follow local government Weights and Measures regulations. This includes regular professional calibration of scales (often quarterly or annually) to ensure the scale's \"zero\" point has not drifted, which would render all tare settings inaccurate.",
+   "prompt_tok": 81,
+   "completion_tok": 403,
+   "total_s": 31.94
+  },
+  {
+   "section": "qa-08-plu-codes-shrink",
+   "q": "What is the financial consequence of failing to FIFO-rotate a $30 wholesale/$45 retail case of organic spring mix?",
+   "gold": "Throwing away that one case effectively forces the store to sell nearly three additional cases flawlessly just to recover the wholesale cost of the ruined one.",
+   "answer": "The financial consequence of failing to FIFO (First-In, First-Out) rotate a case of organic spring mix is the **total loss of the retail value plus the cost of disposal.**\n\nSpecifically:\n\n1.  **Direct Revenue Loss:** You lose the **$45.00** in potential gross sales.\n2.  **Cost of Goods Sold (COGS) Loss:** You lose the **$30.00** wholesale investment.\n3.  **Margin Eradication:** You lose the **$15.00** gross profit margin.\n4.  **Operational Waste:** You incur \"hidden costs,\" including the labor time spent auditing, pulling, and disposing of the spoiled product.\n\nIn grocery operations, this is recorded as **Shrink**. Because spring mix has a very short shelf life and high respiration rate, failure to rotate typically leads to a 100% loss of the product rather than a partial markdown.",
+   "prompt_tok": 87,
+   "completion_tok": 200,
+   "total_s": 3.17
+  },
+  {
+   "section": "qa-08-plu-codes-shrink",
+   "q": "What are the three types of markdown triggers used in a proactive markdown strategy?",
+   "gold": "Time-based triggers (e.g., automatic 25% discount two days before Best By date), sell-through rate triggers (markdown if sell-through falls below a threshold mid-event), and visual aging/floor culling (clerk-applied instant markdowns on bruised or imperfect items).",
+   "answer": "In a proactive markdown strategy, the three types of markdown triggers are:\n\n1.  **Date-Based Triggers:** Markdowns are scheduled based on the product's remaining shelf life (sell-by or expiration date). For example, a \"3 days to expiration\" trigger automatically reduces the price to accelerate velocity.\n2.  **Velocity-Based Triggers:** Markdowns are triggered when the actual sales rate (units per day) falls below the forecasted rate required to clear the inventory before it spoils.\n3.  **Inventory-Level Triggers:** Markdowns are triggered when the on-hand quantity exceeds a specific threshold relative to the time remaining in the product's life cycle (e.g., having 50 units of a product with only 2 days of shelf life left).",
+   "prompt_tok": 76,
+   "completion_tok": 165,
+   "total_s": 8.51
+  },
+  {
+   "section": "qa-09-customer-service",
+   "q": "What is the difference between a climacteric and a non-climacteric fruit?",
+   "gold": "Climacteric fruits continue to ripen after harvest, converting starches to sugars via ethylene gas production. Non-climacteric fruits stop developing sugars the moment they are severed from the parent plant and will only soften or decay after harvest.",
+   "answer": "The primary difference is how the fruit ripens and whether it can continue to ripen after being harvested.\n\n**Climacteric Fruits**\nThese fruits continue to ripen after they are picked. They are characterized by a sudden burst of **ethylene gas** production and an increase in cellular respiration during the ripening process.\n*   **Key Trait:** They can be harvested while mature but \"unripe\" (firm/green) and will soften and sweeten during transport or in storage.\n*   **Examples:** Bananas, avocados, tomatoes, apples, mangoes, and pears.\n*   **Retail Impact:** These are often shipped green to prevent bruising and spoilage, then \"gassed\" with ethylene in ripening rooms to ensure consistent readiness for the shelf.\n\n**Non-Climacteric Fruits**\nThese fruits do not ripen significantly after harvest. They do not show a spike in ethylene production and must reach full physiological maturity on the plant to achieve their peak flavor and sugar content.\n*   **Key Trait:** If picked unripe, they will stay unripe or simply rot; they will not get sweeter.\n*   **Examples:** Citrus (lemons, oranges), grapes, strawberries, blueberries, and pineapples.\n*   **Retail Impact:** These must be harvested at the exact moment of ripeness, making their supply chains more time-sensitive and susceptible to rapid spoilage.",
+   "prompt_tok": 78,
+   "completion_tok": 288,
+   "total_s": 12.58
+  },
+  {
+   "section": "qa-09-customer-service",
+   "q": "What percentage of a papaya's skin should be yellow or orange before it is ready to eat?",
+   "gold": "At least eighty percent.",
+   "answer": "For a papaya to be considered ripe and ready to eat, approximately **25% to 50%** of the skin should have turned yellow or orange.\n\nIf the fruit is still entirely green, it is under-ripe. If it is more than 75% yellow or orange, it may be over-ripe. The most reliable indicator of readiness, regardless of color percentage, is a slight \"give\" or softness when the fruit is gently pressed near the stem end.",
+   "prompt_tok": 81,
+   "completion_tok": 100,
+   "total_s": 3.42
+  },
+  {
+   "section": "qa-09-customer-service",
+   "q": "What is the key indicator that a starfruit has reached full sweetness?",
+   "gold": "Slight browning along the edges of its five ribs, along with an entirely yellow skin.",
+   "answer": "The key indicator that a starfruit has reached full sweetness is a shift in color from **bright green to a golden-yellow**, specifically when the **ribs (the ridges) turn yellow**.\n\nIf the fruit is still green or has significant green patches on the ribs, it will be tart and acidic. For maximum sweetness, look for a fruit that is predominantly yellow with very few green streaks remaining.",
+   "prompt_tok": 75,
+   "completion_tok": 82,
+   "total_s": 9.28
+  },
+  {
+   "section": "qa-09-customer-service",
+   "q": "What are the most scientifically supported anti-inflammatory produce items?",
+   "gold": "Dark leafy greens (spinach, kale, collards), tomatoes, allium vegetables (garlic, onions), and vibrantly colored berries (blueberries, strawberries, cherries).",
+   "answer": "From a nutritional science and grocery operations perspective, the most scientifically supported anti-inflammatory produce items fall into these categories:\n\n**1. Berries (Anthocyanins)**\nBlueberries, strawberries, raspberries, and blackberries are high in anthocyanins. These compounds reduce oxidative stress and inhibit pro-inflammatory cytokines.\n\n**2. Fatty-Acid Rich Fruits (Avocados)**\nAvocados are rich in monounsaturated fats and carotenoids. These help reduce inflammation in the skin and joints and improve the absorption of fat-soluble anti-inflammatory vitamins from other produce.\n\n**3. Cruciferous Vegetables (Sulforaphane)**\nBroccoli, cauliflower, Brussels sprouts, and kale contain sulforaphane and indole-3-carbinol. These compounds block enzymes that cause joint destruction and inhibit NF-kB, a protein complex that triggers inflammation.\n\n**4. Alliums (Organosulfur Compounds)**\nGarlic and onions contain sulfur compounds (like allicin) that inhibit the production of pro-inflammatory enzymes and cytokines.\n\n**5. Deep Leafy Greens (Vitamin K & Lutein)**\nSpinach, Swiss chard, and collard greens are dense in Vitamin K and lutein, which help lower C-reactive protein (CRP) levels in the blood.\n\n**6. Specific Roots (Curcumin & Gingerol)**\n*   **Turmeric:** Contains curcumin, one of the most studied natural anti-inflammatories (though it requires black pepper/piperine for absorption).\n*   **Ginger:** Contains gingerol, which mimics the action of some NSAIDs by inhibiting COX-2 enzymes.\n\n**Operational Tip:** To maximize these benefits, store these items based on their ethylene sensitivity to prevent premature decay, as the degradation of these produce items often correlates with a loss of their volatile antioxidant compounds.",
+   "prompt_tok": 84,
+   "completion_tok": 377,
+   "total_s": 4.66
+  },
+  {
+   "section": "qa-09-customer-service",
+   "q": "Why should leafy tops be removed from carrots, radishes, and beets immediately after purchase?",
+   "gold": "The tops continue drawing moisture and nutrients from the taproot, leaving the vegetable limp, rubbery, and dehydrated within days.",
+   "answer": "Leafy tops should be removed immediately because the greens and the root vegetables have opposing moisture requirements.\n\nThe leaves act as a \"wick,\" continuously drawing water and nutrients out of the root to keep the foliage hydrated. If left attached, the roots will dehydrate, lose their crispness, and become rubbery or shriveled much faster.\n\nBy removing the tops, you seal the moisture inside the root, significantly extending the shelf life of the vegetable. Most greens can be stored separately in a damp paper towel or used immediately.",
+   "prompt_tok": 79,
+   "completion_tok": 108,
+   "total_s": 4.71
+  },
+  {
+   "section": "qa-10-seasonal-sourcing",
+   "q": "What percentage of U.S. leafy greens does Yuma, Arizona produce during winter months?",
+   "gold": "Yuma produces approximately 90 percent of the leafy greens consumed in the United States and Canada from November through April.",
+   "answer": "During the winter months, the Yuma, Arizona, and Imperial Valley, California, region produces approximately **90%** of the leafy greens (specifically lettuce) consumed in the United States.",
+   "prompt_tok": 80,
+   "completion_tok": 40,
+   "total_s": 2.59
+  },
+  {
+   "section": "qa-10-seasonal-sourcing",
+   "q": "When does Peru's heaviest grape shipment window hit, and why does that window matter to retailers?",
+   "gold": "Peru ships heavily into December, targeting the lucrative holiday demand window.",
+   "answer": "Peru's heaviest grape shipment window typically occurs from **late November through March**, with the absolute peak usually hitting in **January and February**.\n\nThis window matters to retailers for three primary reasons:\n\n1.  **Seasonal Gap Filling:** Peru is the primary source of table grapes for the Northern Hemisphere during the winter months. This window bridges the gap between the end of the California season and the start of the Chilean peak, ensuring year-round availability.\n2.  **Volume and Pricing Pressure:** Because the volume hitting the market is so massive during this peak, it creates significant downward pressure on wholesale pricing. Retailers use this window to drive high-volume promotions and \"loss leader\" strategies to increase foot traffic.\n3.  **Quality and Variety Transition:** This period marks the transition into high-demand seedless varieties (such as Sweet Globe or Autumn Crisp). Retailers must manage inventory tightly during this window because, while volume is high, the window for peak freshness is narrow, increasing the risk of shrink if sell-through slows.",
+   "prompt_tok": 92,
+   "completion_tok": 212,
+   "total_s": 2.59
+  },
+  {
+   "section": "qa-10-seasonal-sourcing",
+   "q": "What is a Stage 5 banana, and why is it the most important stage for retail display?",
+   "gold": "Stage 5 is yellow with green tips \u2014 the most popular retail stage, indicating the fruit is ready for imminent consumption.",
+   "answer": "In the retail produce industry, a **Stage 5 banana** is one that is predominantly yellow with a small amount of green remaining at the stem and the tips.\n\nIt is considered the most important stage for retail display for the following reasons:\n\n1.  **The \"Sweet Spot\" of Shelf Life:** Stage 5 represents the ideal balance between ripeness and longevity. It is visually appealing and ready to eat, but it still possesses enough \"green\" to provide several days of shelf life in the consumer's home.\n2.  **Consumer Psychology:** Shoppers typically perceive a Stage 5 banana as the gold standard of quality. If a banana is Stage 6 (fully yellow) or Stage 7 (speckled), consumers often view it as \"too old\" or nearing expiration, leading to increased shrink (waste).\n3.  **Inventory Management:** Because Stage 5 is the peak transition point, it allows retailers to maximize turnover. If a retailer displays bananas too green (Stage 3 or 4), the \"sell-through\" rate drops because customers won't buy them for immediate use. If they are too ripe, the window for sale closes rapidly.\n\nIn short, Stage 5 is the **maximum value point** where the product is most marketable and least likely to be discarded.",
+   "prompt_tok": 81,
+   "completion_tok": 271,
+   "total_s": 13.78
+  },
+  {
+   "section": "qa-10-seasonal-sourcing",
+   "q": "What is hydrocooling and which crops is it used for?",
+   "gold": "Produce is showered with or submerged in chilled water, which transfers heat far more efficiently than air. It is only viable for crops that tolerate getting wet, such as cherries, carrots, or sweet corn.",
+   "answer": "**Hydrocooling** is a rapid cooling method that removes field heat from produce by showering it with cold water or immersing it in a chilled water bath. It is significantly faster than forced-air cooling because water has a much higher heat-transfer capacity than air.\n\nBy quickly lowering the core temperature of the product, hydrocooling slows down respiration, inhibits the growth of decay-causing microorganisms, and reduces moisture loss (wilting).\n\n**Crops it is used for include:**\n*   **Root Vegetables:** Carrots, radishes, and turnips.\n*   **Cruciferous Vegetables:** Broccoli, cauliflower, and cabbage.\n*   **Leafy Greens:** Celery and some types of lettuce (though vacuum cooling is often preferred for lettuce).\n*   **Certain Fruits:** Apples, grapes, and berries (though berries require specialized gentle spraying to avoid bruising).\n\n**Key operational requirement:** The water must be continuously chilled and filtered to prevent the spread of water-borne pathogens (like *Listeria* or *Salmonella*) across the entire lot of produce.",
+   "prompt_tok": 84,
+   "completion_tok": 219,
+   "total_s": 3.38
+  },
+  {
+   "section": "qa-10-seasonal-sourcing",
+   "q": "What is the H-2A program, and why does it raise produce prices?",
+   "gold": "H-2A is a temporary agricultural worker visa program that domestic growers rely on when local labor is scarce. It is more expensive than regular domestic labor, permanently raising the floor for retail produce prices.",
+   "answer": "**What is the H-2A Program?**\nThe H-2A program is a U.S. federal visa program that allows agricultural employers to bring foreign nationals to the United States to fill temporary agricultural jobs when there are not sufficient domestic workers to do the work. It is specifically designed for seasonal or temporary agricultural labor.\n\n**Why it Impacts Produce Prices:**\nWhile the H-2A program ensures crops are harvested (preventing total loss and extreme scarcity), it increases production costs in the following ways:\n\n1.  **Adverse Effect Wage Rate (AEWR):** Employers cannot pay H-2A workers less than the AEWR, a minimum wage set by the Department of Labor to ensure foreign workers do not depress the wages of domestic workers. This rate is often significantly higher than the standard federal minimum wage.\n2.  **Housing and Transportation:** Unlike most domestic hiring, H-2A employers are legally required to provide free housing that meets safety standards and reimburse workers for their travel costs from their home country to the U.S.\n3.  **Administrative Overhead:** The application process involves significant legal and administrative fees to manage visas, government filings, and compliance.\n4.  **Labor Shortages:** When the program's quotas are filled or processing is delayed, labor shortages occur. This leads to \"crop abandonment\" (produce rotting in the field), which reduces overall supply and drives up the price of the remaining available produce.\n\nIn short, the H-2A program replaces \"cheap\" undocumented labor or scarce domestic labor with a highly regulated, higher-cost legal framework, and those increased operational costs are passed down to the consumer.",
+   "prompt_tok": 78,
+   "completion_tok": 342,
+   "total_s": 9.94
+  },
+  {
+   "section": "qa-11-merchandising-psychology",
+   "q": "Why is the produce department placed at the store entrance?",
+   "gold": "To trigger the \"halo effect\" \u2014 if produce looks fresh and abundant, shoppers subconsciously apply that positive perception to every other department in the store, raising their willingness to spend across all categories.",
+   "answer": "The produce department is placed at the store entrance for several strategic psychological and operational reasons:\n\n**1. Visual and Sensory Appeal (The \"Fresh\" Halo)**\nBright colors and fresh scents create an immediate positive psychological impact. When customers see vibrant fruits and vegetables first, it signals that the entire store is \"fresh\" and high-quality, regardless of whether they are buying processed goods further inside.\n\n**2. Price Perception and Value**\nProduce is often perceived as \"healthy\" and \"wholesome.\" By starting the shopping trip with these items, retailers establish a value proposition based on wellness and quality, which can make customers less price-sensitive as they move into higher-margin aisles.\n\n**3. Strategic Pathing (The Perimeter Trip)**\nPlacing produce at the start forces customers to enter the \"perimeter\" of the store. Since high-demand staples (milk, eggs, meat) are typically located at the far back or opposite side, customers must navigate past other displays and end-caps to reach their necessities, increasing impulse purchases.\n\n**4. Speed of Shopping**\nMany customers perform \"top-up\" shops where they only need a few fresh items. Placing produce at the front allows these customers to enter and exit quickly without disrupting the flow of full-cart shoppers in the center aisles.\n\n**5. Inventory Management**\nProduce has the shortest shelf life of almost any category. Placing it near the entrance ensures high visibility and a fast turnover rate, reducing shrink (waste) by keeping the items in the most high-traffic area of the store.",
+   "prompt_tok": 72,
+   "completion_tok": 322,
+   "total_s": 11.6
+  },
+  {
+   "section": "qa-11-merchandising-psychology",
+   "q": "What is the abundance effect?",
+   "gold": "A fully stocked, overflowing display sells products at significantly higher velocity than a half-empty display, even if the half-empty display contains more items than anyone needs \u2014 because abundance cues signal safety, quality, and agricultural success.",
+   "answer": "In retail and grocery operations, the **abundance effect** (also known as the \"mass display\" effect) is the psychological phenomenon where customers are more likely to purchase an item when it is displayed in large quantities rather than in small, sparse amounts.\n\nKey operational drivers of this effect include:\n\n1.  **Perception of Value:** Large piles or overflowing bins signal to the consumer that the product is plentiful, fresh, and potentially discounted or \"on sale,\" even if the unit price remains the same.\n2.  **Reduced Purchase Anxiety:** Customers are more comfortable taking an item from a massive display because they feel they aren't \"depleting\" the stock or taking the last high-quality piece.\n3.  **Visual Magnetism:** In produce specifically, \"mountain\" displays create a visual focal point that draws foot traffic into a specific section of the store.\n4.  **Impulse Trigger:** The sheer volume of product acts as a subconscious cue for the customer to buy more than they originally intended (e.g., buying five apples instead of two because the bin is overflowing).\n\n**Operational Trade-off:** The primary risk of the abundance effect is **increased shrink**. Over-stocking displays to maintain the appearance of abundance can lead to higher bruising, crushing (especially in soft produce), and expiration waste.",
+   "prompt_tok": 67,
+   "completion_tok": 273,
+   "total_s": 17.0
+  },
+  {
+   "section": "qa-11-merchandising-psychology",
+   "q": "What financial benefit does misting provide for produce sold by weight?",
+   "gold": "Misted produce retains an average of 5% more weight, directly preserving the retailer's profit margin on weight-sold items.",
+   "answer": "The primary financial benefit of misting for produce sold by weight is the **reduction of shrink through the prevention of moisture loss (evaporation).**\n\nWhen produce loses water, it loses weight. Because items are sold by weight, any water lost to the atmosphere is a direct loss of sellable inventory and revenue. Misting provides three specific financial advantages:\n\n1.  **Weight Maintenance:** By maintaining high humidity around the product, misting slows transpiration, keeping the produce heavier and increasing the total pounds available for sale.\n2.  **Visual Appeal (Turgidity):** Misting keeps leafy greens and herbs turgid (crisp). Wilted produce is often rejected by customers or marked down, leading to higher waste.\n3.  **Extended Shelf Life:** Hydrated produce generally lasts longer on the shelf, reducing the frequency of \"culls\" (throwing away spoiled items) and improving the overall gross margin of the category.",
+   "prompt_tok": 74,
+   "completion_tok": 193,
+   "total_s": 3.31
+  },
+  {
+   "section": "qa-11-merchandising-psychology",
+   "q": "How much does a branded, event-specific avocado display increase unit sales for avocados alone?",
+   "gold": "25%, demonstrating that the pairing drives the primary product just as strongly as the primary product drives complementary items.",
+   "answer": "There is no universal industry-standard percentage because lift varies significantly based on the specific event (e.g., Super Bowl vs. Cinco de Mayo), the store's baseline volume, and the placement of the display.\n\nHowever, based on retail merchandising data and category management trends, you can generally expect the following:\n\n*   **Incremental Lift:** A well-executed, event-specific branded display typically drives a **20% to 50% increase** in unit sales compared to the product remaining solely in the produce perimeter.\n*   **Cross-Merchandising Effect:** If the display is \"branded\" to an event (e.g., \"Game Day Guacamole\") and includes cross-merchandised items (tortilla chips, limes, salsa), the lift for avocados often hits the higher end of that range because the display creates a \"solution\" for the consumer rather than just a product.\n*   **Impulse Factor:** Avocados are high-impulse items during events. Moving them from a standard bin to a high-traffic promotional endcap or \"island\" display removes the friction of the customer having to seek them out in the produce department.\n\n**Key Variables affecting the lift:**\n1.  **Placement:** An endcap or \"power wing\" near the chips/dips will outperform a branded sign inside the produce section.\n2.  **Pricing:** Branded displays paired with a \"multi-buy\" offer (e.g., 4 for $5) see significantly higher unit velocity than displays with standard pricing.\n3.  **Inventory Management:** The primary risk to these displays is \"out-of-stocks.\" If the display isn't replenished hourly during a peak event window, the lift is neutralized.",
+   "prompt_tok": 79,
+   "completion_tok": 364,
+   "total_s": 13.63
+  },
+  {
+   "section": "qa-11-merchandising-psychology",
+   "q": "How does signage placed at the produce department entrance affect shopper behavior?",
+   "gold": "Lifestyle imagery or recipe content activates pre-existing implicit associations with health and freshness, priming shoppers to buy more fresh vegetables even if they hadn't planned to.",
+   "answer": "Signage at the produce entrance acts as a psychological \"transition zone,\" shifting the shopper from a transit mindset to a shopping mindset. Here is how it specifically affects behavior:\n\n**1. Establishing Value Perception (Price Anchoring)**\nPromotional signage featuring \"Loss Leaders\" (deeply discounted staples like berries or avocados) creates a \"halo effect.\" When shoppers see high-value deals immediately upon entry, they perceive the entire store as affordable, which increases their willingness to spend more in non-discounted categories.\n\n**2. Directing Traffic Flow and Dwell Time**\nDirectional or thematic signage (e.g., \"Seasonal Harvest\" or \"Local Farmers\") guides the shopper\u2019s path. By highlighting specific destination items, retailers can pull shoppers deeper into the department, increasing dwell time. The longer a shopper stays in produce, the higher the probability of impulse purchases.\n\n**3. Triggering Planned and Unplanned Purchases**\n*   **Planned:** Signage confirming the availability of a weekly special validates the shopper's decision to visit.\n*   **Unplanned:** \"Cross-merchandising\" signs (e.g., placing a sign for salsa next to tomatoes) trigger associative thinking, prompting the shopper to add complementary items to their cart that weren't on their list.\n\n**4. Influencing Health Signaling**\nBright, fresh imagery and language emphasizing \"Freshness,\" \"Organic,\" or \"Local\" prime the shopper for health-conscious behavior. This often leads to a higher \"basket share\" of produce, as the visual cues reinforce the emotional desire to eat healthily.\n\n**5. Reducing Decision Fatigue**\nWell-organized category signage (e.g., \"Leafy Greens,\" \"Root Vegetables\") reduces the cognitive load on the shopper. When shoppers can find items quickly, they experience less frustration, which correlates with higher overall customer satisfaction and a higher likelihood of completing a full shopping trip.",
+   "prompt_tok": 74,
+   "completion_tok": 396,
+   "total_s": 7.38
+  },
+  {
+   "section": "qa-12-ergonomics-safety",
+   "q": "What is the total recordable injury and illness rate for grocery store workers, and how does it compare to retail trade overall?",
+   "gold": "The grocery store industry has a rate of 8.4 cases per 100 full-time workers, significantly higher than the retail trade average of 5.9 and the total private industry average of 6.1.",
+   "answer": "Based on the most recent available data from the Bureau of Labor Statistics (BLS), the Total Recordable Case Incident Rate (TRCIR) for **Grocery Stores (NAICS 445110)** typically fluctuates between **3.5 and 4.5 per 100 full-time workers**.\n\n**Comparison to Retail Trade Overall:**\nThe injury rate for grocery store workers is generally **higher** than the average for the overall Retail Trade sector. While the general retail average often hovers around **3.0 to 3.5**, grocery stores experience higher rates due to specific operational hazards, including:\n\n*   **Ergonomics:** High frequency of repetitive lifting, stocking, and scanning.\n*   **Slips, Trips, and Falls:** Higher prevalence of spills (liquids/produce) and wet floors.\n*   **Material Handling:** Frequent use of pallet jacks and heavy carts.\n*   **Cutting Hazards:** Specific risks associated with deli and meat departments.",
+   "prompt_tok": 97,
+   "completion_tok": 206,
+   "total_s": 12.72
+  },
+  {
+   "section": "qa-12-ergonomics-safety",
+   "q": "What is the \"Double-String Visualizer\" cue for the hip hinge?",
+   "gold": "Imagine one string pulling the chest forward and down to lean the torso, while a second string pulls the hips and gluteals backward and upward, keeping the hips \"tall.\"",
+   "answer": "The \"Double-String Visualizer\" is a corrective cue used to teach the hip hinge (the movement pattern used for lifting boxes or crates) by imagining two strings pulling the body in opposite directions to ensure a neutral spine and proper weight distribution.\n\nThe cue works as follows:\n\n1.  **The First String (The Crown):** Imagine a string attached to the crown of your head pulling you straight up toward the ceiling. This encourages an elongated spine and prevents the rounding of the back.\n2.  **The Second String (The Tailbone):** Imagine a string attached to your tailbone pulling you straight back behind you. This forces the movement into the hips (shifting the center of gravity backward) rather than letting the knees travel too far forward.\n\n**Operational Application:** In a grocery or retail setting, this is taught to employees to prevent lower-back injuries during \"picking\" tasks. By focusing on the \"tailbone string,\" the employee engages the glutes and hamstrings rather than putting the vertical load on the lumbar spine.",
+   "prompt_tok": 77,
+   "completion_tok": 213,
+   "total_s": 2.52
+  },
+  {
+   "section": "qa-12-ergonomics-safety",
+   "q": "What is a \"push-cut slip\" and why does it occur with a dull blade?",
+   "gold": "When vertical force is applied to a dull edge on waxy or fibrous produce, the blade deforms the surface and skids laterally instead of cutting, causing a sudden uncontrolled slip that frequently causes deep lacerations.",
+   "answer": "In produce processing and grocery operations, a **push-cut slip** occurs when a slicing blade fails to engage the surface of a product, causing the blade to slide across the exterior (the \"skin\" or \"crust\") rather than biting into the material.\n\nInstead of a clean, vertical shear, the blade \"pushes\" the product away or skids off the side, often resulting in an uneven cut, a crushed product, or a safety hazard for the operator.\n\n**Why it occurs with a dull blade:**\nA sharp blade has a microscopic \"apex\" (a very thin edge) that creates high pressure on a tiny surface area, allowing it to puncture the skin of the produce instantly. \n\nWhen a blade becomes dull:\n1. **Increased Surface Area:** The cutting edge rounds over, increasing the surface area in contact with the food.\n2. **Reduced Pressure:** Because the force is spread over a wider, rounded edge, the pressure is no longer sufficient to break the surface tension or cellular structure of the product.\n3. **Friction/Resistance:** The dull edge creates more friction and resistance. Instead of slicing, the blade pushes the product forward. If the product is round (like a tomato or onion) or has a slick skin, the blade will simply \"slip\" off the curve because it cannot \"anchor\" itself into the flesh.",
+   "prompt_tok": 80,
+   "completion_tok": 282,
+   "total_s": 13.12
+  },
+  {
+   "section": "qa-12-ergonomics-safety",
+   "q": "By how much does cold suppress the thirst drive, and what mechanism causes this?",
+   "gold": "Cold suppresses the thirst drive by up to 40%; peripheral vasoconstriction pushes blood to the thoracic core, increasing central blood volume, which tricks the hypothalamus into suppressing arginine vasopressin (AVP) secretion and triggering cold-induced diuresis.",
+   "answer": "Cold suppresses the thirst drive through a process called **cold-induced diuresis (CID)** and a shift in thermoregulatory priorities. While there is no single universal percentage by which thirst is suppressed (as it varies by temperature drop and individual physiology), the suppression is significant enough to lead to \"silent dehydration,\" particularly in athletes or laborers in cold climates.\n\n### The Mechanism\n\n**1. Peripheral Vasoconstriction**\nWhen the body is exposed to cold, it triggers peripheral vasoconstriction\u2014narrowing the blood vessels in the skin and extremities to shunt warm blood toward the core to protect vital organs.\n\n**2. Increased Central Blood Volume**\nThis shunting of blood increases the volume of blood in the body's core (the thoracic region). The body perceives this increase in central blood pressure as a state of fluid overload.\n\n**3. Inhibition of ADH (Vasopressin)**\nThe stretch receptors in the heart's atria detect the increased central pressure and signal the brain to suppress the release of **Antidiuretic Hormone (ADH)**, also known as vasopressin, from the posterior pituitary gland.\n\n**4. Diuresis**\nWithout ADH, the kidneys stop reabsorbing water and instead increase urine production (diuresis). This reduces the overall blood volume to normalize the perceived pressure in the core.\n\n**5. Blunting of the Thirst Center**\nBecause the body is actively trying to shed fluid to manage central blood pressure, the hypothalamic thirst center is inhibited. The biological drive to drink is suppressed even as the total body water content drops, because the \"sensors\" in the core are signaling that there is too much fluid, despite the systemic dehydration.",
+   "prompt_tok": 77,
+   "completion_tok": 347,
+   "total_s": 6.58
+  },
+  {
+   "section": "qa-12-ergonomics-safety",
+   "q": "What distinguishes cheap rubber flooring from high-performance anti-fatigue mats?",
+   "gold": "Cheap flooring uses open-cell SBR or recycled crumb rubber at \u22640.25 inch thickness, bottoms out quickly under load, and pools water rather than draining it; it also degrades when exposed to vegetable oils and organic acids.",
+   "answer": "The primary distinctions lie in **material composition, compression set, and energy return.**\n\n**1. Material Composition**\n*   **Cheap Rubber Flooring:** Typically made from recycled crumb rubber bonded with polyurethane. It is designed for durability and impact protection (e.g., gym floors), focusing on hardness and wear resistance.\n*   **Anti-Fatigue Mats:** Often use closed-cell nitrile rubber, PVC, or specialized foams. These materials are engineered for specific densities that provide a balance between support and \"give.\"\n\n**2. Compression Set (Recovery)**\n*   **Cheap Rubber Flooring:** Has a high compression set, meaning once it is compressed by a heavy load or long-term standing, it does not rebound quickly. It acts more like a dead weight.\n*   **Anti-Fatigue Mats:** Designed with high resilience. They are engineered to return to their original shape instantly, which creates a dynamic surface that forces the user's muscles to make micro-adjustments.\n\n**3. Energy Return and Muscle Activation**\n*   **Cheap Rubber Flooring:** Provides a static cushion. While it is softer than concrete, it allows the muscles in the legs and back to remain stagnant, which can lead to blood pooling and soreness over long shifts.\n*   **Anti-Fatigue Mats:** Specifically designed to promote \"micro-oscillations\" in the calves and ankles. This subtle movement acts as a pump for blood flow back to the heart, reducing venous pooling and muscle fatigue.\n\n**4. Surface Ergonomics**\n*   **Cheap Rubber Flooring:** Usually a flat, uniform surface.\n*   **Anti-Fatigue Mats:** Often feature engineered textures (bubbles, ridges, or domes) to further encourage foot movement and provide additional air pockets for cushioning.",
+   "prompt_tok": 87,
+   "completion_tok": 364,
+   "total_s": 12.55
+  },
+  {
+   "section": "qa-13-wall-prep-and-crisping",
+   "q": "What is the correct water temperature range for crisping produce?",
+   "gold": "95\u00b0F to 100\u00b0F. Warm water opens the stomata and relaxes vascular tissue, allowing rapid water uptake. Cold water causes the guard cells and xylem to constrict, blocking hydration entirely.",
+   "answer": "For the majority of leafy greens, herbs, and cruciferous vegetables, the correct water temperature for crisping is **34\u00b0F to 40\u00b0F (1\u00b0C to 4\u00b0C)**.\n\nThe goal is to keep the produce as close to its optimal storage temperature as possible to prevent metabolic breakdown while utilizing osmotic pressure to restore turgidity to the cells. \n\n**Key operational notes:**\n*   **Avoid Ice-Water Baths:** While cold is necessary, temperatures below 32\u00b0F can cause cellular rupture (freezing), leading to \"water-soaked\" tissue or translucent spotting.\n*   **Temperature Shock:** Drastic swings in temperature can cause wilting or stress; ensure the water is pre-chilled to the target range before immersion.\n*   **Duration:** Produce should typically remain in the crisping bath for 30 minutes to 2 hours depending on the level of wilt, followed by thorough draining to prevent microbial growth and premature decay.",
+   "prompt_tok": 84,
+   "completion_tok": 205,
+   "total_s": 5.43
+  },
+  {
+   "section": "qa-13-wall-prep-and-crisping",
+   "q": "What is the industry average trim yield for green and red cabbage?",
+   "gold": "79%. The primary cause of poor yield is peeling too deep beyond the wrapper leaves or cutting deeply into the core causing leaf shatter.",
+   "answer": "In a retail or processing environment, the industry average trim yield for cabbage generally falls between **85% and 92%**.\n\nThe specific yield depends on the method of preparation:\n\n*   **Retail/Whole Sale:** If the cabbage is sold whole with only the outermost damaged leaf removed, the yield is high (**90%+**).\n*   **In-Store Prep (Shredded/Chopped):** When the core is removed and the outer leaves are trimmed for salads or coleslaws, the yield typically drops to **85%\u201388%**.\n\n**Key factors affecting yield:**\n*   **Core Size:** The weight of the core is the primary source of waste.\n*   **Quality/Outer Leaf Decay:** Red cabbage often requires slightly more aggressive outer-leaf trimming than green cabbage due to a higher propensity for surface scarring or bruising.\n*   **Cutting Precision:** Manual trimming by store associates typically results in lower yields (more waste) compared to mechanical shredders.",
+   "prompt_tok": 74,
+   "completion_tok": 208,
+   "total_s": 4.15
+  },
+  {
+   "section": "qa-13-wall-prep-and-crisping",
+   "q": "What is the industry average trim yield for cilantro and parsley?",
+   "gold": "75%. Crushed stem cuts preventing hydration and mass bunch discarding due to core rot are the primary causes of poor yield.",
+   "answer": "Industry average trim yields for cilantro and parsley generally range between **75% and 85%**. \n\nThis means that for every 100 lbs of raw, field-packed product, you can expect 75 to 85 lbs of saleable product after removing woody stems, yellowing leaves, and damaged ends.\n\n**Key variables affecting this yield include:**\n*   **Product Form:** \"Cut and washed\" products have lower yields than \"bunched\" products due to the removal of more stem material.\n*   **Seasonality:** Winter harvests often see higher trim loss due to increased yellowing and bruising from cold chain stress.\n*   **Sourcing:** Hydroponic herbs typically offer higher yields (closer to 85-90%) compared to field-grown herbs because of more consistent stem length and fewer soil-related defects.",
+   "prompt_tok": 84,
+   "completion_tok": 180,
+   "total_s": 5.95
+  },
+  {
+   "section": "qa-13-wall-prep-and-crisping",
+   "q": "What is the correct soak time for herbs like cilantro and parsley?",
+   "gold": "1 to 3 minutes. Their extremely fragile cell walls mean prolonged soaking leads to rapid waterlogging and subsequent decay.",
+   "answer": "For retail produce operations, the \"soak\" is typically a hydration and cleaning process rather than a chemical treatment. \n\nThe correct soak time for soft-stemmed herbs like cilantro and parsley is **10 to 20 minutes**.\n\n**Operational Guidelines:**\n*   **Temperature:** Use chilled water (approx. 34\u00b0F\u201340\u00b0F) to maintain the cold chain and reduce respiration.\n*   **Process:** Submerge the bunches in a clean produce sink. This removes surface debris, hydrates the stems to improve turgidity (crispness), and extends shelf life.\n*   **Post-Soak:** This is the most critical step. Herbs must be thoroughly drained or spun dry using a centrifugal dryer. Leaving excess water on the leaves leads to rapid microbial growth (slime) and premature decay in the display case.\n*   **Storage:** Once drained, they should be stored in a high-humidity environment with a constant airflow to prevent moisture buildup.",
+   "prompt_tok": 74,
+   "completion_tok": 205,
+   "total_s": 1.78
+  },
+  {
+   "section": "qa-13-wall-prep-and-crisping",
+   "q": "Why must the cutting board be wiped between different commodity types?",
+   "gold": "Trimming fragile greens on a board covered in abrasive celery trimmings or soil causes micro-abrasions that become immediate entry points for rot-inducing pathogens.",
+   "answer": "Cutting boards must be wiped or sanitized between different commodity types for three primary reasons:\n\n**1. Prevention of Cross-Contamination**\nThis is the most critical safety requirement. Pathogens from high-risk items (such as raw proteins or unwashed root vegetables with soil) can transfer to \"ready-to-eat\" items (such as berries or pre-washed salads) that will not undergo a kill-step (cooking) before consumption.\n\n**2. Allergen Control**\nCross-contact occurs when an allergen (e.g., nuts, soy, or gluten) is transferred from one food to another. Wiping and sanitizing prevent trace amounts of an allergen from contaminating a product that is labeled as allergen-free.\n\n**3. Flavor and Aesthetic Integrity**\nStrong-smelling or staining commodities (e.g., onions, garlic, or beets) can leave residual oils and pigments. If not removed, these can transfer \"off-flavors\" or unsightly discoloration to the next product, compromising the quality and sensory experience for the customer.",
+   "prompt_tok": 73,
+   "completion_tok": 218,
+   "total_s": 3.34
+  }
+ ]
+}

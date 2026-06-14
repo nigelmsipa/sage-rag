@@ -78,16 +78,25 @@ def main():
             pairs = [pairs[int(i * step)] for i in range(sample)]
         section = os.path.basename(f).replace(".md", "")
         for q, gold in pairs:
-            ans, meta = ask_rag(q)
+            t_q = time.time()
+            try:
+                ans, meta = ask_rag(q)
+            except Exception as e:
+                ans, meta = f"[ERROR: {e}]", {}
+            wall_s = round(time.time() - t_q, 2)
             n += 1
             # tokens/sec from ollama's nanosecond durations
             def tps(cnt, dur): return round(cnt / (dur / 1e9), 1) if cnt and dur else None
+            # Ollama reports total_duration; OpenRouter (cloud) does not — fall
+            # back to client-side wall time so cloud models still get latency.
+            total_s = round((meta.get("total_duration") or 0) / 1e9, 2) or wall_s
             rec = {"section": section, "q": q, "gold": gold, "answer": ans,
                    "prefill_tok": meta.get("prompt_eval_count"),
                    "decode_tok": meta.get("eval_count"),
                    "prefill_tps": tps(meta.get("prompt_eval_count"), meta.get("prompt_eval_duration")),
                    "decode_tps": tps(meta.get("eval_count"), meta.get("eval_duration")),
-                   "total_s": round((meta.get("total_duration") or 0) / 1e9, 2)}
+                   "wall_s": wall_s,
+                   "total_s": total_s}
             results.append(rec)
             print(f"[{n}] {section} | {rec['total_s']}s "
                   f"(prefill {rec['prefill_tps']} t/s, decode {rec['decode_tps']} t/s) "
